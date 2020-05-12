@@ -1,0 +1,227 @@
+* {
+    outline: 0px;
+}
+
+@font-face {
+    font-family: "Rouge";
+    src: url(../fonts/Rouge.ttf);
+}
+
+* {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+
+/*nav css*/
+
+.navdisplay {
+    top: 2%;
+    display: none;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 60px;
+    transition: 1s;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.navdisplay:after,
+.navdisplay:before,
+.navdisplay div {
+    border-radius: 3px;
+    content: '';
+    display: block;
+    height: 5.5px;
+    margin: 4px 0;
+    transition: all .2s ease-in-out;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.navhide {
+    z-index: 1;
+    background-color: #fff;
+    border-radius: 60px;
+    transition: 1s;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.navhide:after,
+.navhide:before,
+.navhide div {
+    border-radius: 3px;
+    content: '';
+    display: block;
+    height: 5px;
+    margin: 4px 0;
+    transition: all .2s ease-in-out;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.navhide:before {
+    transform: translateY(9px) rotate(135deg);
+    /* background-color: #FFC102; */
+}
+
+.navhide:after {
+    transform: translateY(-10px) rotate(-135deg);
+    /* background-color: #FFC102; */
+}
+
+.navhide div {
+    transform: scale(0);
+}
+
+.setwidth {
+    width: fit-content;
+}
+
+header div.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar-brand img {
+    height: 3.6vw;
+    width: 4.4vw;
+}
+
+header {
+    position: fixed;
+    background-color: transparent;
+}
+
+nav ul li a {
+    margin: 1vw;
+}
+
+nav ul li a button {
+    border: none;
+    padding: 2%;
+    background-color: transparent;
+    font-weight: 500;
+}
+
+nav ul li a button:hover {
+    transform: scale(1.2);
+}
+
+@media screen and (max-width:766px) {
+    .navbar-brand {
+        line-height: 0px;
+        height: fit-content;
+        margin: 3%;
+    }
+    .navbar-brand img {
+        height: 45px;
+        width: 55px;
+    }
+    .navdisplay {
+        display: block;
+        margin-top: 0.5em;
+    }
+    .setwidth {
+        width: 100%;
+    }
+}
+
+
+/* end nav */
+
+
+/* body */
+
+#home {
+    background-image: url(../images/slideshow/one.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+#home div.container {
+    display: flex;
+    height: 100%;
+}
+
+.logoandtagline {
+    margin: auto 0px;
+}
+
+#home h1 {
+    font-family: 'Rouge';
+    font-size: 100px;
+}
+
+#home h3 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@keyframes animatebackground {
+    /* 0% {
+        background-image: url(../images/slideshow/one.jpg);
+        transition: ease-in-out 1s;
+    } */
+    10% {
+        background-image: url(../images/slideshow/one.jpg);
+        transition: ease-in-out 1s;
+    }
+    20% {
+        background-image: url(../images/slideshow/2.jpg);
+        transition: ease-in-out 1s;
+    }
+    30% {
+        background-image: url(../images/slideshow/3.jpg);
+        transition: ease-in-out 1s;
+    }
+    40% {
+        background-image: url(../images/slideshow/4.jpg);
+        transition: ease-in-out 1s;
+    }
+    50% {
+        background-image: url(../images/slideshow/5.jpg);
+        transition: ease-in-out 1s;
+    }
+    60% {
+        background-image: url(../images/slideshow/6.jpg);
+        transition: ease-in-out 1s;
+    }
+    70% {
+        background-image: url(../images/slideshow/7.jpg);
+        transition: ease-in-out 1s;
+    }
+    80% {
+        background-image: url(../images/slideshow/8.jpg);
+        transition: ease-in-out 1s;
+    }
+    90% {
+        background-image: url(../images/slideshow/9.jpg);
+        transition: ease-in-out 1s;
+    }
+    100% {
+        background-image: url(../images/slideshow/10.jpg);
+        transition: ease-in-out 1s;
+    }
+}
+
+.backgroundanimation {
+    animation-name: animatebackground;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    transition: ease-in-out 1s;
+}
+
+
+/* end body */
