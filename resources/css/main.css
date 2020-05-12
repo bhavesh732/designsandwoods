@@ -171,9 +171,9 @@ nav ul li a button:hover {
 
 @keyframes animatebackground {
     /* 0% {
-        background-image: url(../images/slideshow/one.jpg);
-        transition: ease-in-out 1s;
-    } */
+    background-image: url(../images/slideshow/one.jpg);
+    transition: ease-in-out 1s;
+} */
     10% {
         background-image: url(../images/slideshow/one.jpg);
         transition: ease-in-out 1s;
@@ -221,6 +221,16 @@ nav ul li a button:hover {
     animation-duration: 60s;
     animation-iteration-count: infinite;
     transition: ease-in-out 1s;
+}
+
+@media screen and (max-width:766px) {
+    #home h1 {
+        font-size: xxx-large;
+        font-weight: 600;
+    }
+    #home h3 {
+        font-size: small;
+    }
 }
 
 
