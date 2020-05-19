@@ -4,8 +4,10 @@ function hidefunction() {
     var currentScrollPos = window.pageYOffset;
     if (prevScrollpos > currentScrollPos) {
         document.getElementById("header").style.top = "0";
+        // document.getElementById("header").style.position = "sticky";
     } else {
         document.getElementById("header").style.top = "-100px";
+        // document.getElementById("header").style.position = "fixed";
     }
     prevScrollpos = currentScrollPos;
 }
@@ -29,5 +31,9 @@ var mq = window.matchMedia("(max-width: 766px)");
 if (mq.matches) {
     function navhide() {
         navbutton.click();
+    }
+} else {
+    function navhide() {
+
     }
 }

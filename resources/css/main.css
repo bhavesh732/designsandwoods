@@ -123,7 +123,8 @@ header div.container {
 }
 
 header {
-    position: fixed;
+    position: sticky;
+    top: 0px;
     background-color: #102542;
     z-index: 5;
     color: #fff;
@@ -289,6 +290,7 @@ nav ul li:nth-child(6) {
 .item {
     margin: 0vh;
     margin-top: 0px;
+    background-image: url(../images/slideshow/background.png);
 }
 
 .vertalign {
