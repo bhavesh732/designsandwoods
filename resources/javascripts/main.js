@@ -55,12 +55,20 @@ $('.navbar-nav>li>a').on('click', function() {
 
 const aboutbutton = document.querySelector(".about");
 const aboutdiv = document.querySelector(".aboutdiv");
+const aboutuscards = document.querySelector(".aboutuscards");
 const bodyheight = document.querySelector(".body");
 
 aboutbutton.addEventListener("click", () => {
     bodyheight.classList.toggle('bodyheight');
     aboutbutton.classList.toggle('about-width');
     aboutdiv.classList.toggle('aboutdiv-visible');
+    aboutuscards.classList.toggle('aboutuscards-visible');
+});
+
+const aboutusbutton = document.querySelector(".aboutus");
+
+aboutusbutton.addEventListener("click", () => {
+    aboutbutton.click();
 });
 
 $(document).click(function(e) {

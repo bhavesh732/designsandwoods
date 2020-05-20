@@ -457,6 +457,10 @@ i:before {
     transition: 1s;
 }
 
+.aboutuscards-visible {
+    height: 100vh;
+}
+
 .aboutdiv .row {
     height: 0px;
     top: 0px;
