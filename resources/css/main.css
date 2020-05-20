@@ -408,15 +408,15 @@ nav ul li:nth-child(6) {
         font-size: 15px;
     }
     .carousel-item {
-        height: 90vh;
+        height: 80vh;
         background-image: url(../images/slideshow/background.png);
     }
     .carousel-item .container {
         background-size: contain;
         background-repeat: no-repeat;
-        height: 90%;
-        margin-top: 5%;
-        margin-bottom: 5%;
+        height: 100%;
+        margin-top: 2vh;
+        margin-bottom: 0%;
     }
     .carousel-item:nth-child(1) .container {
         background-image: url(../images/slideshow/onemobile.jpg);
