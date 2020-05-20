@@ -1,10 +1,11 @@
-* {
-    outline: 0px;
-}
-
 @font-face {
     font-family: "Raleway";
     src: url(../fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url('../fonts/Poppins.ttf');
 }
 
 * {
@@ -20,6 +21,7 @@
     /* Internet Explorer/Edge */
     user-select: none;
     outline: none;
+    z-index: 1;
 }
 
 *:focus,
@@ -29,6 +31,7 @@
 
 body {
     overflow-x: hidden;
+    font-family: "Raleway";
 }
 
 
@@ -100,12 +103,10 @@ section img {
 
 .navhide:before {
     transform: translateY(9px) rotate(135deg);
-    /* background-color: #FFC102; */
 }
 
 .navhide:after {
     transform: translateY(-10px) rotate(-135deg);
-    /* background-color: #FFC102; */
 }
 
 .navhide div {
@@ -270,10 +271,7 @@ nav ul li:nth-child(6) {
 /* body */
 
 
-/* .home .carousel-inner .carousel-item {
-    width: 100%;
-    height: 100vh;
-} */
+/* carousel */
 
 .carousel-item {
     height: 100vh;
@@ -340,61 +338,6 @@ nav ul li:nth-child(6) {
     font-family: 'Times New Roman', Times, serif;
 }
 
-
-/* @keyframes animatebackground {
-    /* 0% {
-    background-image: url(../images/slideshow/one.jpg);
-    transition: 1s ease-in-out ;
-}
-    10% {
-        background-image: url(../images/slideshow/one.jpg);
-        transition: 1s ease-in-out;
-    }
-    20% {
-        background-image: url(../images/slideshow/2.jpg);
-        transition: 1s ease-in-out;
-    }
-    30% {
-        background-image: url(../images/slideshow/3.jpg);
-        transition: 1s ease-in-out;
-    }
-    40% {
-        background-image: url(../images/slideshow/4.jpg);
-        transition: 1s ease-in-out;
-    }
-    50% {
-        background-image: url(../images/slideshow/5.jpg);
-        transition: 1s ease-in-out;
-    }
-    60% {
-        background-image: url(../images/slideshow/6.jpg);
-        transition: 1s ease-in-out;
-    }
-    70% {
-        background-image: url(../images/slideshow/7.jpg);
-        transition: 1s ease-in-out;
-    }
-    80% {
-        background-image: url(../images/slideshow/8.jpg);
-        transition: 1s ease-in-out;
-    }
-    90% {
-        background-image: url(../images/slideshow/9.jpg);
-        transition: 1s ease-in-out;
-    }
-    100% {
-        background-image: url(../images/slideshow/10.jpg);
-        transition: 1s ease-in-out;
-    }
-}
-
-.backgroundanimation {
-    animation-name: animatebackground;
-    animation-duration: 30s;
-    animation-iteration-count: infinite;
-    transition: 1s ease-in-out;
-} */
-
 @media screen and (max-width:766px) {
     .logoandtagline {
         margin: 5vh 0px;
@@ -421,6 +364,163 @@ nav ul li:nth-child(6) {
     .carousel-item:nth-child(1) .container {
         background-image: url(../images/slideshow/onemobile.jpg);
     }
+}
+
+
+/* welcome quote */
+
+.welcome-quote {
+    text-align: center;
+    margin: 2vw;
+    height: 35vh;
+}
+
+.welcome-quote .container {
+    padding: 2vw;
+    height: 100%;
+    display: flex;
+}
+
+.welcome-quote .container div {
+    margin: auto 0vw;
+}
+
+.welcome-quote h4 {
+    font-weight: 500;
+    font-size: small;
+}
+
+.welcome-quote h2 {
+    font-weight: 900;
+}
+
+.welcome-quote .container blockquote {
+    font-family: "Poppins";
+}
+
+.hrline {
+    width: 80%;
+    text-align: center;
+    border-bottom: 1px solid rgba(128, 128, 128);
+    line-height: 0.1em;
+    margin: 10px 10% 20px;
+}
+
+.hrline span {
+    padding: 0 10px;
+    font-size: small;
+}
+
+i:before {
+    font-size: 22px;
+    color: #FF206E;
+}
+
+@media screen and (max-width:766px) {
+    .welcome-quote {
+        margin: 2vw 0vw;
+    }
+}
+
+
+/* about and touch scroll effect*/
+
+#about {
+    /* background-color: #f87060; */
+    text-align: center;
+}
+
+#about button {
+    margin: 1vw auto;
+    margin-bottom: 0px;
+    padding: 1vw;
+    width: 70%;
+    background-color: #f87060;
+    border: none;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+#about button h1 {
+    font-weight: 900;
+}
+
+#about .about-width {
+    width: 104%;
+    margin-left: -2vw;
+    margin-right: -2vw;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.about {
+    transition: 1s;
+}
+
+.aboutdiv .row {
+    height: 0px;
+    top: 0px;
+    position: absolute;
+    z-index: 0;
+    transition: 1s;
+}
+
+.aboutdiv .row .col-sm-6,
+.aboutdiv .row .col-sm-6 h3,
+.aboutdiv .row .col-sm-6 p,
+.aboutdiv .row .col-sm-6 h6 {
+    visibility: hidden;
+    height: 0px;
+}
+
+.aboutdiv-visible .row {
+    height: fit-content;
+    position: relative;
+    z-index: 1;
+    transition: 1s;
+}
+
+.aboutdiv-visible .row .col-sm-6,
+.aboutdiv-visible .row .col-sm-6 h3,
+.aboutdiv-visible .row .col-sm-6 p,
+.aboutdiv-visible .row .col-sm-6 h6 {
+    visibility: visible;
+    height: fit-content;
+}
+
+.body {
+    max-height: 186vh;
+}
+
+.bodyheight {
+    max-height: fit-content;
+}
+
+.col-sm-6 h6 {
+    font-weight: 700;
+    font-family: "Raleway";
+    font-size: large;
+    margin-top: 1vw;
+}
+
+.col-sm-6 h3 {
+    font-weight: 800;
+    margin: 2vw 0vw;
+    margin-bottom: 1vw;
+}
+
+.col-sm-6 p {
+    font-family: "Poppins";
+    text-align: left;
+}
+
+p span {
+    float: right;
+    font-weight: 900;
+}
+
+.inspiration p {
+    font-family: "Poppins";
 }
 
 

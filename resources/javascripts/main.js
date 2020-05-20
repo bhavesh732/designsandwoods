@@ -41,3 +41,13 @@ if (mq.matches) {
 
     }
 }
+
+const aboutbutton = document.querySelector(".about");
+const aboutdiv = document.querySelector(".aboutdiv");
+const bodyheight = document.querySelector(".body");
+
+aboutbutton.addEventListener("click", () => {
+    bodyheight.classList.toggle('bodyheight');
+    aboutbutton.classList.toggle('about-width');
+    aboutdiv.classList.toggle('aboutdiv-visible');
+});
