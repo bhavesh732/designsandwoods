@@ -446,9 +446,9 @@ i:before {
 }
 
 #about .about-width {
-    width: 104%;
-    margin-left: -2vw;
-    margin-right: -2vw;
+    width: 106%;
+    margin-left: -3vw;
+    margin-right: -3vw;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
 }
@@ -521,6 +521,24 @@ p span {
 
 .inspiration p {
     font-family: "Poppins";
+}
+
+.col-sm-6 {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+@media screen and (max-width:766px) {
+    .col-sm-6 h3 {
+        margin-top: 3vh;
+        font-size: 25px;
+    }
+    .col-sm-6 p {
+        margin-bottom: 0vh;
+    }
+    #about button {
+        width: 90%;
+    }
 }
 
 
