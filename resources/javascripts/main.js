@@ -1,3 +1,7 @@
+window.onscroll = function() {
+    hidefunction();
+}
+
 var prevScrollpos = window.pageYOffset;
 
 function hidefunction() {

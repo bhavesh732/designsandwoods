@@ -27,6 +27,10 @@
     outline: none !important;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 
 /*top logo header*/
 
@@ -213,6 +217,10 @@ nav ul li:nth-child(6) {
     transition: 1s;
 }
 
+.navbar.navbar-expand-md.setwidth {
+    margin-bottom: 0px;
+}
+
 @media screen and (max-width:766px) {
     .navbar-brand {
         line-height: 0px;
@@ -261,15 +269,60 @@ nav ul li:nth-child(6) {
 
 /* body */
 
-.home .carousel-inner .container-fluid:nth-child(1) .container {
-    background-image: url(../images/slideshow/one.jpg);
+
+/* .home .carousel-inner .carousel-item {
+    width: 100%;
     height: 100vh;
-    background-size: cover;
+} */
+
+.carousel-item {
+    height: 100vh;
+    background-image: url(../images/slideshow/background.png);
 }
 
-.home div.container {
-    display: flex;
+.carousel-item .container {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 96vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.carousel-item:nth-child(1) .container {
+    background-image: url(../images/slideshow/one.jpg);
+}
+
+.carousel-item:nth-child(2) .container {
+    background-image: url(../images/slideshow/1.png);
+}
+
+.carousel-item:nth-child(3) .container {
+    background-image: url(../images/slideshow/2.png);
+}
+
+.carousel-item:nth-child(4) .container {
+    background-image: url(../images/slideshow/3.png);
+}
+
+.carousel-item:nth-child(5) .container {
+    background-image: url(../images/slideshow/4.png);
+}
+
+.carousel-item:nth-child(6) .container {
+    background-image: url(../images/slideshow/5.png);
+}
+
+.carousel-item:nth-child(7) .container {
+    background-image: url(../images/slideshow/6.png);
+}
+
+.carousel-item:nth-child(8) .container {
+    background-image: url(../images/slideshow/7.png);
+}
+
+.vertalign {
     height: 100%;
+    display: flex;
 }
 
 .logoandtagline {
@@ -285,18 +338,6 @@ nav ul li:nth-child(6) {
 .home h3 {
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
-}
-
-.item {
-    margin: 0vh;
-    margin-top: 0px;
-    background-image: url(../images/slideshow/background.png);
-}
-
-.vertalign {
-    height: 100vh;
-    margin: 2vh;
-    display: flex;
 }
 
 
@@ -355,16 +396,6 @@ nav ul li:nth-child(6) {
 } */
 
 @media screen and (max-width:766px) {
-    .home h1 {
-        font-size: xxx-large;
-        font-weight: 600;
-    }
-    .home h3 {
-        font-size: small;
-    }
-    .item {
-        margin: 0vh;
-    }
     .logoandtagline {
         margin: 5vh 0px;
         text-align: center;
@@ -376,20 +407,19 @@ nav ul li:nth-child(6) {
     .home h3 {
         font-size: 15px;
     }
-    .vertalign {
-        width: 100%;
-        height: 100%;
+    .carousel-item {
+        height: 90vh;
+        background-image: url(../images/slideshow/background.png);
     }
-    .home .carousel-inner .container-fluid:nth-child(1) {
-        padding: 0px;
-        margin: 0px;
-    }
-    .home .carousel-inner .container-fluid:nth-child(1) .container {
-        background-image: url(../images/slideshow/onemobile.jpg);
+    .carousel-item .container {
         background-size: contain;
         background-repeat: no-repeat;
-        height: 70vh;
-        padding: 0px;
+        height: 90%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .carousel-item:nth-child(1) .container {
+        background-image: url(../images/slideshow/onemobile.jpg);
     }
 }
 
