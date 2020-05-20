@@ -494,6 +494,15 @@ i:before {
 
 .aboutuscards .row {
     height: 46%;
+    margin: 2%;
+}
+
+.aboutuscards .col-sm-6 {
+    height: 100% !important;
+}
+
+.flip-card {
+    height: 100%;
 }
 
 .body {
@@ -543,13 +552,6 @@ p span {
     background-color: transparent;
 }
 
-.flip-card-inner {
-    position: relative;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-}
-
 .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
 }
@@ -559,7 +561,17 @@ p span {
     position: absolute;
     width: 100%;
     height: 100%;
+    left: 0px;
+    top: 0px;
     backface-visibility: hidden;
+}
+
+.flip-card-inner {
+    position: relative;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    height: 100%;
 }
 
 .flip-card-back {
@@ -567,6 +579,7 @@ p span {
     color: rgb(255, 255, 255);
     transform: rotateY(180deg);
     position: absolute;
+    height: 100%;
 }
 
 @media screen and (max-width:766px) {
