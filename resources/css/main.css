@@ -500,6 +500,7 @@ i:before {
 
 .aboutuscards-visible {
     height: 100vh;
+    margin-bottom: 8vh;
 }
 
 .aboutdiv .row {
@@ -638,12 +639,6 @@ div h1 {
 
 .flip-card-front {
     background-color: black;
-}
-
-@media screen and (min-width: 700px) {
-    .aboutuscards-visible {
-        height: 200vh;
-    }
 }
 
 @media screen and (max-width:766px) {
