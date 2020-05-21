@@ -286,35 +286,35 @@ nav ul li:nth-child(6) {
     margin-bottom: 2vh;
 }
 
-.carousel-item:nth-child(1) .container {
-    background-image: url(../images/slideshow/one.jpg);
-}
-
 .carousel-item:nth-child(2) .container {
-    background-image: url(../images/slideshow/1.png);
+    background-image: url(../images/slideshow/one.png);
 }
 
 .carousel-item:nth-child(3) .container {
-    background-image: url(../images/slideshow/2.png);
+    background-image: url(../images/slideshow/1.png);
 }
 
 .carousel-item:nth-child(4) .container {
-    background-image: url(../images/slideshow/3.png);
+    background-image: url(../images/slideshow/2.png);
 }
 
 .carousel-item:nth-child(5) .container {
-    background-image: url(../images/slideshow/4.png);
+    background-image: url(../images/slideshow/3.png);
 }
 
 .carousel-item:nth-child(6) .container {
-    background-image: url(../images/slideshow/5.png);
+    background-image: url(../images/slideshow/4.png);
 }
 
 .carousel-item:nth-child(7) .container {
-    background-image: url(../images/slideshow/6.png);
+    background-image: url(../images/slideshow/5.png);
 }
 
 .carousel-item:nth-child(8) .container {
+    background-image: url(../images/slideshow/6.png);
+}
+
+.carousel-item:nth-child(9) .container {
     background-image: url(../images/slideshow/7.png);
 }
 
@@ -351,7 +351,7 @@ nav ul li:nth-child(6) {
         font-size: 15px;
     }
     .carousel-item {
-        height: 80vh;
+        height: 70vh;
         background-image: url(../images/slideshow/background.png);
     }
     .carousel-item .container {
@@ -361,8 +361,29 @@ nav ul li:nth-child(6) {
         margin-top: 2vh;
         margin-bottom: 0%;
     }
-    .carousel-item:nth-child(1) .container {
-        background-image: url(../images/slideshow/onemobile.jpg);
+    .carousel-item:nth-child(2) .container {
+        background-image: url(../images/slideshow/8mobile.png);
+    }
+    .carousel-item:nth-child(3) .container {
+        background-image: url(../images/slideshow/1mobile.png);
+    }
+    .carousel-item:nth-child(4) .container {
+        background-image: url(../images/slideshow/2mobile.png);
+    }
+    .carousel-item:nth-child(5) .container {
+        background-image: url(../images/slideshow/3mobile.png);
+    }
+    .carousel-item:nth-child(6) .container {
+        background-image: url(../images/slideshow/4mobile.png);
+    }
+    .carousel-item:nth-child(7) .container {
+        background-image: url(../images/slideshow/5mobile.png);
+    }
+    .carousel-item:nth-child(8) .container {
+        background-image: url(../images/slideshow/6mobile.png);
+    }
+    .carousel-item:nth-child(9) .container {
+        background-image: url(../images/slideshow/7mobile.png);
     }
 }
 
