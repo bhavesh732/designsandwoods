@@ -721,7 +721,7 @@ footer {
 .social-media-footer h6 {
     text-transform: uppercase;
     font-weight: 900;
-    margin: 2vh;
+    margin-top: 2vh;
 }
 
 .fa-instagram:before,
