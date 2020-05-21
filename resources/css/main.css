@@ -335,7 +335,7 @@ nav ul li:nth-child(6) {
 
 .home h3 {
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Poppins';
 }
 
 .flip-card-back .fullwidth {
@@ -362,6 +362,7 @@ nav ul li:nth-child(6) {
         margin: 5vh 0px;
         text-align: center;
         width: 100%;
+        height: fit-content;
     }
     .home h1 {
         font-size: 35px;
@@ -639,6 +640,12 @@ div h1 {
     background-color: black;
 }
 
+@media screen and (min-width: 700px) {
+    .aboutuscards-visible {
+        height: 200vh;
+    }
+}
+
 @media screen and (max-width:766px) {
     .col-sm-6 h3 {
         margin-top: 3vh;
@@ -689,6 +696,41 @@ div h1 {
         height: 50%;
         margin-right: -50%;
     }
+}
+
+
+/* footer */
+
+footer {
+    background-color: #102542;
+    text-align: center;
+}
+
+.social-media-footer .btn {
+    background-color: transparent;
+    margin: auto;
+    width: fit-content;
+}
+
+.social-media-footer a {
+    text-decoration: none;
+    color: #f87060;
+    margin-bottom: 2vh;
+}
+
+.social-media-footer h6 {
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: 2vh;
+}
+
+.fa-instagram:before,
+.fa-twitter:before,
+.fa-facebook:before {
+    color: white;
+    font-size: large;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 
