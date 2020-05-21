@@ -338,6 +338,24 @@ nav ul li:nth-child(6) {
     font-family: 'Times New Roman', Times, serif;
 }
 
+.flip-card-back .fullwidth {
+    width: 50%;
+    padding: 0px;
+    display: flex;
+}
+
+.flip-card-back .fullwidth img {
+    width: 100%;
+    height: 100%;
+}
+
+.fullwidth p {
+    height: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 1vw;
+}
+
 @media screen and (max-width:766px) {
     .logoandtagline {
         margin: 5vh 0px;
@@ -632,7 +650,7 @@ div h1 {
         width: 90%;
     }
     .aboutuscards-visible {
-        height: 200vh;
+        height: 300vh;
     }
     .aboutuscards-visible .row {
         height: 50%;
@@ -645,6 +663,10 @@ div h1 {
     .flip-card-back {
         height: 96%;
         margin: 2% 0;
+    }
+    .flip-card-back .col-sm-6 {
+        margin: 0 !important;
+        width: 100%;
     }
     .aboutuscards .col-sm-6 {
         height: 50% !important;
