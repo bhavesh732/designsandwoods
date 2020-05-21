@@ -550,6 +550,7 @@ p span {
 
 .flip-card {
     background-color: transparent;
+    margin-top: 5vh;
 }
 
 .flip-card:hover .flip-card-inner {
@@ -564,6 +565,8 @@ p span {
     left: 0px;
     top: 0px;
     backface-visibility: hidden;
+    display: flex;
+    text-align: center;
 }
 
 .flip-card-inner {
@@ -580,6 +583,19 @@ p span {
     transform: rotateY(180deg);
     position: absolute;
     height: 100%;
+}
+
+.flip-card .flip-card-front div {
+    margin: auto;
+    color: white;
+}
+
+div h1 {
+    font-weight: 900;
+}
+
+.flip-card-front {
+    background-color: black;
 }
 
 @media screen and (max-width:766px) {
