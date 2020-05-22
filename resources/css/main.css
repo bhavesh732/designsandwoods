@@ -286,36 +286,48 @@ nav ul li:nth-child(6) {
     margin-bottom: 2vh;
 }
 
-.carousel-item:nth-child(2) .container {
-    background-image: url(../images/slideshow/one.png);
-}
-
-.carousel-item:nth-child(3) .container {
+.carousel-item:nth-child(1) .container {
     background-image: url(../images/slideshow/1.png);
 }
 
-.carousel-item:nth-child(4) .container {
+.carousel-item:nth-child(2) .container {
     background-image: url(../images/slideshow/2.png);
 }
 
-.carousel-item:nth-child(5) .container {
+.carousel-item:nth-child(3) .container {
     background-image: url(../images/slideshow/3.png);
 }
 
-.carousel-item:nth-child(6) .container {
+.carousel-item:nth-child(4) .container {
     background-image: url(../images/slideshow/4.png);
 }
 
-.carousel-item:nth-child(7) .container {
+.carousel-item:nth-child(5) .container {
     background-image: url(../images/slideshow/5.png);
 }
 
-.carousel-item:nth-child(8) .container {
+.carousel-item:nth-child(6) .container {
     background-image: url(../images/slideshow/6.png);
 }
 
-.carousel-item:nth-child(9) .container {
+.carousel-item:nth-child(7) .container {
     background-image: url(../images/slideshow/7.png);
+}
+
+.carousel-item:nth-child(8) .container {
+    background-image: url(../images/slideshow/8.png);
+}
+
+.carousel-item:nth-child(9) .container {
+    background-image: url(../images/slideshow/9.png);
+}
+
+.carousel-item:nth-child(10) .container {
+    background-image: url(../images/slideshow/10.png);
+}
+
+.carousel-item:nth-child(11) .container {
+    background-image: url(../images/slideshow/11.png);
 }
 
 .vertalign {
@@ -381,29 +393,38 @@ nav ul li:nth-child(6) {
         margin-top: 2vh;
         margin-bottom: 0%;
     }
-    .carousel-item:nth-child(2) .container {
-        background-image: url(../images/slideshow/8mobile.png);
-    }
-    .carousel-item:nth-child(3) .container {
+    .carousel-item:nth-child(1) .container {
         background-image: url(../images/slideshow/1mobile.png);
     }
-    .carousel-item:nth-child(4) .container {
+    .carousel-item:nth-child(2) .container {
         background-image: url(../images/slideshow/2mobile.png);
     }
-    .carousel-item:nth-child(5) .container {
+    .carousel-item:nth-child(3) .container {
         background-image: url(../images/slideshow/3mobile.png);
     }
-    .carousel-item:nth-child(6) .container {
+    .carousel-item:nth-child(4) .container {
         background-image: url(../images/slideshow/4mobile.png);
     }
-    .carousel-item:nth-child(7) .container {
+    .carousel-item:nth-child(5) .container {
         background-image: url(../images/slideshow/5mobile.png);
     }
-    .carousel-item:nth-child(8) .container {
+    .carousel-item:nth-child(6) .container {
         background-image: url(../images/slideshow/6mobile.png);
     }
-    .carousel-item:nth-child(9) .container {
+    .carousel-item:nth-child(7) .container {
         background-image: url(../images/slideshow/7mobile.png);
+    }
+    .carousel-item:nth-child(8) .container {
+        background-image: url(../images/slideshow/8mobile.png);
+    }
+    .carousel-item:nth-child(9) .container {
+        background-image: url(../images/slideshow/9mobile.png);
+    }
+    .carousel-item:nth-child(10) .container {
+        background-image: url(../images/slideshow/10mobile.png);
+    }
+    .carousel-item:nth-child(11) .container {
+        background-image: url(../images/slideshow/11mobile.png);
     }
 }
 
@@ -460,6 +481,12 @@ i:before {
 @media screen and (max-width:766px) {
     .welcome-quote {
         margin: 2vw 0vw;
+    }
+    .aboutuscards .fullwidth {
+        display: none;
+    }
+    .aboutuscards-visible .fullwidth {
+        display: block;
     }
 }
 
@@ -701,6 +728,10 @@ footer {
     text-align: center;
 }
 
+.social-media-footer {
+    padding: 2vh;
+}
+
 .social-media-footer .btn {
     background-color: transparent;
     margin: auto;
@@ -723,7 +754,7 @@ footer {
 .fa-twitter:before,
 .fa-facebook:before {
     color: white;
-    font-size: large;
+    font-size: x-large;
     margin-top: auto;
     margin-bottom: auto;
 }
