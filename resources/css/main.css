@@ -569,9 +569,9 @@ i:before {
 }
 
 #about .about-width {
-    width: 106%;
-    margin-left: -3vw;
-    margin-right: -3vw;
+    width: 102%;
+    margin-left: -15px;
+    margin-right: -15px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
 }
@@ -740,6 +740,9 @@ div h1 {
     .aboutuscards-visible .row {
         height: 50%;
         margin: 0px;
+    }
+    #about .about-width {
+        width: 108%;
     }
     .flip-card {
         height: 100%;
