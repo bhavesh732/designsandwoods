@@ -434,7 +434,8 @@ nav ul li:nth-child(6) {
 .welcome-quote {
     text-align: center;
     margin: 2vw;
-    height: 35vh;
+    height: fit-content;
+    padding: 5vh 0vh;
 }
 
 .welcome-quote .container {
@@ -511,6 +512,60 @@ i:before {
 
 #about button h1 {
     font-weight: 900;
+    width: fit-content;
+    margin: auto;
+}
+
+#about button h1 span:before,
+#about button h1 span:after {
+    border-radius: 3px;
+    content: '';
+    display: block;
+    height: 5.5px;
+    margin: 4px 0;
+    transition: all .2s ease-in-out;
+    background-color: rgba(0, 0, 0, 1);
+    width: 50%;
+    transition: 1s;
+}
+
+#about button h1 span:before {
+    transform: translateY(9px) translateX(4px) rotate(15deg);
+}
+
+#about button h1 span:after {
+    transform: translateY(0px) translateX(92%) rotate(165deg);
+}
+
+#about button.about-width h1 span {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 200px;
+}
+
+#about button.about-width h1 span:before,
+#about button.about-width h1 span:after {
+    border-radius: 3px;
+    content: '';
+    display: block;
+    height: 5.5px;
+    margin: 4px 0;
+    transition: all .2s ease-in-out;
+    background-color: rgba(0, 0, 0, 1);
+    width: 20%;
+    transition: 1s;
+    margin-left: 40%;
+    margin-right: 40%;
+    transition: 1s;
+}
+
+#about button.about-width h1 span:before {
+    transform: translateY(9px) translateX(0px) rotate(45deg);
+}
+
+#about button.about-width h1 span:after {
+    transform: translateY(0px) translateX(0%) rotate(135deg);
 }
 
 #about .about-width {
@@ -597,7 +652,7 @@ i:before {
 
 .col-sm-6 p {
     font-family: "Poppins";
-    text-align: left;
+    text-align: justify;
 }
 
 p span {
@@ -717,6 +772,15 @@ div h1 {
         width: 100%;
         height: 50%;
         margin-right: -50%;
+    }
+    .about {
+        height: 14vh;
+    }
+    #about button h1 span:before {
+        transform: translateY(9px) translateX(3px) rotate(15deg);
+    }
+    #about button h1 span:after {
+        transform: translateY(-1px) translateX(95%) rotate(165deg);
     }
 }
 
