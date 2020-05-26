@@ -536,11 +536,11 @@ i:before {
 }
 
 #about button h1 span:before {
-    transform: translateY(-0.5px) translateX(96%) rotate(165deg)
+    transform: translateY(9px) translateX(4px) rotate(15deg);
 }
 
 #about button h1 span:after {
-    transform: translateY(1px) translateX(90%) rotate(165deg);
+    transform: translateY(-0.5px) translateX(96%) rotate(165deg);
 }
 
 #about button.about-width h1 span {
