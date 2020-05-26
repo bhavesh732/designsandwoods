@@ -685,6 +685,7 @@ p span {
 
 .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
 }
 
 .flip-card-front,
@@ -695,6 +696,7 @@ p span {
     left: 0px;
     top: 0px;
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
     display: flex;
     text-align: center;
     border: 2px solid black;
@@ -704,7 +706,9 @@ p span {
     position: relative;
     text-align: center;
     transition: transform 1s;
+    -webkit-transition: transform 1s;
     transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
     height: 100%;
 }
 
@@ -712,6 +716,7 @@ p span {
     background-color: #f87060;
     color: rgb(255, 255, 255);
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
     position: absolute;
     height: 100%;
 }
