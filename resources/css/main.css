@@ -192,13 +192,13 @@ nav ul li a button:hover {
     border: none;
 }
 
-.btn-pinterest {
+.btn-whatsapp {
     background-color: transparent;
     border: none;
 }
 
-.btn-pinterest:hover,
-.btn-pinterest:active {
+.btn-whatsapp:hover,
+.btn-whatsapp:active {
     background-color: transparent;
     border: none;
 }
@@ -683,6 +683,7 @@ p span {
 .flip-card {
     background-color: transparent;
     margin-top: 5vh;
+    perspective: 1000px;
 }
 
 .flip-card:hover .flip-card-inner {
@@ -836,7 +837,7 @@ footer {
 }
 
 .fa-instagram:before,
-.fa-pinterest:before,
+.fa-whatsapp:before,
 .fa-facebook:before {
     color: white;
     font-size: x-large;
