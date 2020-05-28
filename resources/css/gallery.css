@@ -1,0 +1,125 @@
+body {
+    margin: 0px;
+}
+
+#yscroll {
+    font-family: "Raleway";
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    color: #000;
+    margin: 50px 0 0 100px;
+    font-size: 5rem;
+}
+
+.gallery {
+    margin: 10px 50px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300vw;
+}
+
+ul.top-row {
+    width: 400vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul.bottom-row {
+    width: 400vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.filler {
+    background: red;
+    width: 275px;
+    height: 150px;
+    margin: 0 20px;
+}
+
+div.filler2 {
+    background: blue;
+    width: 275px;
+    height: 150px;
+    margin: 0 20px;
+}
+
+header {
+    height: 100vh;
+    width: fit-content;
+}
+
+.social-media {
+    margin-bottom: auto;
+    display: inline;
+    margin-left: auto;
+}
+
+.navbar-nav {
+    display: flex;
+}
+
+.navbar-collapse {
+    height: -webkit-fill-availiable;
+}
+
+.navbar-expand-md .navbar-nav {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: inherit;
+}
+
+nav ul li {
+    transform: rotateZ(90deg);
+    margin-top: 10vh;
+}
+
+.navbar-expand-md .navbar-collapse {
+    height: -webkit-fill-available;
+}
+
+.setwidth {
+    padding: 0px;
+}
+
+.col-sm-1 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0;
+}
+
+button.butt {
+    margin: 0vh;
+}
+
+.btn {
+    margin-top: 2vh;
+}
+
+nav ul li a {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#mainlogo {
+    display: flex;
+    height: 100vh;
+}
+
+#mainlogo a {
+    margin: auto;
+}
