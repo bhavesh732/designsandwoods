@@ -765,7 +765,7 @@ div h1 {
     .flip-card-front,
     .flip-card-back {
         height: 96%;
-        margin: 2% 0;
+        margin: 0% 0;
     }
     .flip-card-back .col-sm-6 {
         margin: 0 !important;
@@ -849,7 +849,8 @@ footer {
 /* end body */
 
 
-/* * {
+/* 
+* {
     background: #000 !important;
     color: #0f0 !important;
     outline: solid #f00 1px !important;
