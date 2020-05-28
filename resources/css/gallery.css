@@ -24,11 +24,11 @@ h1 {
 }
 
 .gallery {
-    margin: 10px 50px;
+    margin: 0px 50px;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    width: 300vw;
+    width: 500vw;
 }
 
 ul.top-row {
@@ -121,5 +121,18 @@ nav ul li a {
 }
 
 #mainlogo a {
+    margin: auto;
+}
+
+footer {
+    height: 100vh;
+}
+
+footer .row {
+    display: flex;
+    height: 100vh;
+}
+
+.col-sm-12 {
     margin: auto;
 }
