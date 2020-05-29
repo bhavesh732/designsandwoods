@@ -59,25 +59,16 @@ $(document).click(function(e) {
     }
 });
 
-// var sidescroll = document.getElementById('yscroll');
-// var mainheader = document.getElementById('mainheader');
-// var footer = document.getElementById('footer');
-
-// function fixingfunction() {
-//     header.style.position = "static";
-//     if (document.body.scrollTop > window.innerHeight * 0.42 || document.documentElement.scrollTop > window.innerHeight * 0.42) {
-//         footer.style.position = "fixed ";
-//         mainheader.style.position = "fixed";
-//         mainheader.style.top = "-42vh";
-//         sidescroll.style.top = "0px";
-//         sidescroll.style.position = "relative";
-//         // for (i = 0; i < 100; i++) {
-//         //     if (sidescroll.scrollLeft > window.innerWidth * 0.10) {
-//         //         console.log(document.scrollLeft / window.innerWidth);
-//         //     }
-//         // }
-//         if (sidescroll.scrollLeft > window.innerWidth * 0.10) {
-//             footer.style.position = "static";
-//         }
-//     }
-// }
+// $(function() {
+//     $('a').bind('click', function(event) {
+//         var $anchor = $(this);
+//         // if you want to use one of the easing effects:
+//         $('html, body').stop().animate({
+//             scrollLeft: $($anchor.attr('href')).offset().left
+//         }, 1500, 'easeInOutExpo');
+//         // $('html, body').stop().animate({
+//         //     scrollLeft: $($anchor.attr('href')).offset().left
+//         // }, 1000);
+//         // event.preventDefault();
+//     });
+// });
