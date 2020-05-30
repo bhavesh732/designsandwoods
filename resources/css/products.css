@@ -9,10 +9,15 @@
     position: static;
 }
 
-#products .container .row .col-sm-6 {
+#products .container .row .row .col-sm-6 {
     height: 46vh;
     margin-top: 2.5vh;
     margin-bottom: 2.5vh;
+}
+
+.row {
+    width: 100%;
+    margin: 0px;
 }
 
 .flip-card {
@@ -61,38 +66,7 @@
 
 /* Style the front side (fallback if image is missing) */
 
-.col-sm-6:nth-child(odd) .flip-card-front h1 {
-    width: fit-content;
-    padding: 5px;
-    font-weight: 900;
-    background-color: white;
-    color: black;
-    font-size: x-large;
-}
-
-.col-sm-6:nth-child(odd) .flip-card-front:hover h1 {
-    width: fit-content;
-    padding: 5px;
-    background-color: black;
-    color: white;
-    font-size: x-large;
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-}
-
-.col-sm-6:nth-child(odd) .flip-card-front {
-    background-color: black;
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-}
-
-.col-sm-6:nth-child(odd) .flip-card-front:hover {
-    background-color: white;
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-}
-
-.col-sm-6:nth-child(even) .flip-card-front h1 {
+.row:nth-child(odd) .col-sm-6:nth-child(1) .flip-card-front h1 {
     width: fit-content;
     padding: 5px 15px;
     font-weight: 900;
@@ -101,7 +75,7 @@
     font-size: x-large;
 }
 
-.col-sm-6:nth-child(even) .flip-card-front:hover h1 {
+.row:nth-child(odd) .col-sm-6:nth-child(1) .flip-card-front:hover h1 {
     width: fit-content;
     padding: 5px;
     background-color: white;
@@ -111,14 +85,80 @@
     -webkit-transition: 0.5s;
 }
 
-.col-sm-6:nth-child(even) .flip-card-front {
+.row:nth-child(odd) .col-sm-6:nth-child(1) .flip-card-front {
     background-color: white;
     transition: 0.5s;
     -webkit-transition: 0.5s;
 }
 
-.col-sm-6:nth-child(even) .flip-card-front:hover {
+.row:nth-child(odd) .col-sm-6:nth-child(1) .flip-card-front:hover {
     background-color: black;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+
+.row:nth-child(even) .col-sm-6:nth-child(2) .flip-card-front:hover {
+    background-color: black;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+
+.row:nth-child(odd) .col-sm-6:nth-child(2) .flip-card-front h1,
+.row:nth-child(even) .col-sm-6:nth-child(1) .flip-card-front h1 {
+    width: fit-content;
+    padding: 5px;
+    font-weight: 900;
+    background-color: white;
+    color: black;
+    font-size: x-large;
+}
+
+.row:nth-child(odd) .col-sm-6:nth-child(2) .flip-card-front:hover h1,
+.row:nth-child(even) .col-sm-6:nth-child(1) .flip-card-front:hover h1 {
+    width: fit-content;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+
+.row:nth-child(odd) .col-sm-6:nth-child(2) .flip-card-front,
+.row:nth-child(even) .col-sm-6:nth-child(1) .flip-card-front {
+    background-color: black;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+
+.row:nth-child(odd) .col-sm-6:nth-child(2) .flip-card-front:hover,
+.row:nth-child(even) .col-sm-6:nth-child(1) .flip-card-front:hover {
+    background-color: white;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+
+.row:nth-child(even) .col-sm-6:nth-child(2) .flip-card-front h1 {
+    width: fit-content;
+    padding: 5px 15px;
+    font-weight: 900;
+    background-color: black;
+    color: white;
+    font-size: x-large;
+}
+
+.row:nth-child(even) .col-sm-6:nth-child(2) .flip-card-front:hover h1 {
+    width: fit-content;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    font-size: x-large;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+
+.row:nth-child(even) .col-sm-6:nth-child(2) .flip-card-front {
+    background-color: white;
     transition: 0.5s;
     -webkit-transition: 0.5s;
 }
@@ -126,7 +166,16 @@
 
 /* Style the back side */
 
-.col-sm-6:nth-child(odd) .flip-card-back {
+.row:nth-child(odd) .col-sm-6:nth-child(1) .flip-card-back {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+}
+
+.row:nth-child(odd) .col-sm-6:nth-child(2) .flip-card-back,
+.row:nth-child(even) .col-sm-6:nth-child(1) .flip-card-back {
     background-color: white;
     color: black;
     border: 2px solid black;
@@ -134,7 +183,7 @@
     -webkit-transform: rotateY(180deg);
 }
 
-.col-sm-6:nth-child(even) .flip-card-back {
+.row:nth-child(even) .col-sm-6:nth-child(2) .flip-card-back {
     background-color: black;
     color: white;
     border: 2px solid black;
@@ -146,280 +195,280 @@ footer {
     position: static;
 }
 
-.col-sm-6 .flip-card .flip-card-inner .flip-card-front {
+.row .col-sm-6 .flip-card .flip-card-inner .flip-card-front {
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
     transition: 1s;
 }
 
-.col-sm-6:hover .flip-card .flip-card-inner .flip-card-front {
+.row .col-sm-6:hover .flip-card .flip-card-inner .flip-card-front {
     background-size: 120%;
     transition: 1s;
 }
 
-.col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
+.row .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
     background-image: url(../images/products/timberpc.png);
 }
 
-.col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
+.row .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
     background-image: url(../images/products/teakpc.png);
 }
 
-.col-sm-6:nth-child(3) .flip-card .flip-card-inner .flip-card-front {
+.row .col-sm-6:nth-child(3) .flip-card .flip-card-inner .flip-card-front {
     background-image: url(../images/products/nonteakpc.png);
 }
 
-.col-sm-6:nth-child(4) .flip-card .flip-card-inner .flip-card-front {
+.row .col-sm-6:nth-child(4) .flip-card .flip-card-inner .flip-card-front {
     background-image: url(../images/products/doorspc.png);
 }
 
-.col-sm-6:nth-child(5) .flip-card .flip-card-inner .flip-card-front {
+.row .col-sm-6:nth-child(5) .flip-card .flip-card-inner .flip-card-front {
     background-image: url(../images/products/woodenframespc.png);
 }
 
-.col-sm-6:nth-child(6) .flip-card .flip-card-inner .flip-card-front {
+.row .col-sm-6:nth-child(6) .flip-card .flip-card-inner .flip-card-front {
     background-image: url(../images/products/railingspc.png);
 }
 
-.col-sm-6:nth-child(7) .flip-card .flip-card-inner .flip-card-front {
+.row .col-sm-6:nth-child(7) .flip-card .flip-card-inner .flip-card-front {
     background-image: url(../images/products/carvingpc.png);
 }
 
-.col-sm-6:nth-child(8) .flip-card .flip-card-inner .flip-card-front {
+.row .col-sm-6:nth-child(8) .flip-card .flip-card-inner .flip-card-front {
     background-image: url(../images/products/cnccuttingpc.png);
 }
 
-.col-sm-6:nth-child(9) .flip-card .flip-card-inner .flip-card-front {
+.row .col-sm-6:nth-child(9) .flip-card .flip-card-inner .flip-card-front {
     background-image: url(../images/products/woodenflooringpc.png);
 }
 
-.col-sm-6:nth-child(10) .flip-card .flip-card-inner .flip-card-front {
+.row .col-sm-6:nth-child(10) .flip-card .flip-card-inner .flip-card-front {
     background-image: url(../images/products/solidsurfacepc.png);
 }
 
-.col-sm-6:nth-child(11) .flip-card .flip-card-inner .flip-card-front {
+.row .col-sm-6:nth-child(11) .flip-card .flip-card-inner .flip-card-front {
     background-image: url(../images/products/burmeseteakwoodpc.png);
 }
 
-.col-sm-6:nth-child(12) .flip-card .flip-card-inner .flip-card-front {
+.row .col-sm-6:nth-child(12) .flip-card .flip-card-inner .flip-card-front {
     background-image: url(../images/products/indianteakwoodpc.png);
 }
 
-.col-sm-6:nth-child(13) .flip-card .flip-card-inner .flip-card-front {
+.row .col-sm-6:nth-child(13) .flip-card .flip-card-inner .flip-card-front {
     background-image: url(../images/products/africanteakwoodpc.png);
 }
 
-.col-sm-6:nth-child(14) .flip-card .flip-card-inner .flip-card-front {
+.row .col-sm-6:nth-child(14) .flip-card .flip-card-inner .flip-card-front {
     background-image: url(../images/products/plywoodpc.png);
 }
 
-.col-sm-6:nth-child(15) .flip-card .flip-card-inner .flip-card-front {
+.row .col-sm-6:nth-child(15) .flip-card .flip-card-inner .flip-card-front {
     background-image: url(../images/products/veneerspc.png);
 }
 
-.col-sm-6:nth-child(16) .flip-card .flip-card-inner .flip-card-front {
+.row .col-sm-6:nth-child(16) .flip-card .flip-card-inner .flip-card-front {
     background-image: url(../images/products/laminatespc.png);
 }
 
-.col-sm-6:nth-child(17) .flip-card .flip-card-inner .flip-card-front {
+.row .col-sm-6:nth-child(17) .flip-card .flip-card-inner .flip-card-front {
     background-image: url(../images/products/salwoodpc.png);
 }
 
-.col-sm-6:nth-child(18) .flip-card .flip-card-inner .flip-card-front {
+.row .col-sm-6:nth-child(18) .flip-card .flip-card-inner .flip-card-front {
     background-image: url(../images/products/walnutwoodpc.png);
 }
 
-.col-sm-6:nth-child(19) .flip-card .flip-card-inner .flip-card-front {
+.row .col-sm-6:nth-child(19) .flip-card .flip-card-inner .flip-card-front {
     background-image: url(../images/products/oakwoodpc.png);
 }
 
-.col-sm-6:nth-child(20) .flip-card .flip-card-inner .flip-card-front {
+.row .col-sm-6:nth-child(20) .flip-card .flip-card-inner .flip-card-front {
     background-image: url(../images/products/pinewoodpc.png);
 }
 
-.col-sm-6:nth-child(21) .flip-card .flip-card-inner .flip-card-front {
+.row .col-sm-6:nth-child(21) .flip-card .flip-card-inner .flip-card-front {
     background-image: url(../images/products/beechwoodpc.png);
 }
 
-.col-sm-6:nth-child(22) .flip-card .flip-card-inner .flip-card-front {
+.row .col-sm-6:nth-child(22) .flip-card .flip-card-inner .flip-card-front {
     background-image: url(../images/products/tabletopspc.png);
 }
 
-.col-sm-6:nth-child(23) .flip-card .flip-card-inner .flip-card-front {
+.row .col-sm-6:nth-child(23) .flip-card .flip-card-inner .flip-card-front {
     background-image: url(../images/products/sleeperwoodpc.png);
 }
 
-.col-sm-6:nth-child(24) .flip-card .flip-card-inner .flip-card-front {
+.row .col-sm-6:nth-child(24) .flip-card .flip-card-inner .flip-card-front {
     background-image: url(../images/products/customizedfurnituremakingpc.png);
 }
 
-.col-sm-6:nth-child(25) .flip-card .flip-card-inner .flip-card-front {
+.row .col-sm-6:nth-child(25) .flip-card .flip-card-inner .flip-card-front {
     background-image: url(../images/products/woodenbeadingpc.png);
 }
 
-.col-sm-6:nth-child(26) .flip-card .flip-card-inner .flip-card-front {
+.row .col-sm-6:nth-child(26) .flip-card .flip-card-inner .flip-card-front {
     background-image: url(../images/products/jaalipartitionspc.png);
 }
 
 @media screen and (max-width:800px) {
-    .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/timbertab.png);
     }
-    .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/teaktab.png);
     }
-    .col-sm-6:nth-child(3) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(3) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/nonteaktab.png);
     }
-    .col-sm-6:nth-child(4) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(4) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/doorstab.png);
     }
-    .col-sm-6:nth-child(5) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(5) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/woodenframestab.png);
     }
-    .col-sm-6:nth-child(6) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(6) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/railingstab.png);
     }
-    .col-sm-6:nth-child(7) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(7) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/carvingtab.png);
     }
-    .col-sm-6:nth-child(8) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(8) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/cnccuttingtab.png);
     }
-    .col-sm-6:nth-child(9) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(9) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/woodenflooringtab.png);
     }
-    .col-sm-6:nth-child(10) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(10) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/solidsurfacetab.png);
     }
-    .col-sm-6:nth-child(11) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(11) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/burmeseteakwoodtab.png);
     }
-    .col-sm-6:nth-child(12) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(12) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/indianteakwoodtab.png);
     }
-    .col-sm-6:nth-child(13) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(13) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/africanteakwoodtab.png);
     }
-    .col-sm-6:nth-child(14) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(14) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/plywoodtab.png);
     }
-    .col-sm-6:nth-child(15) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(15) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/veneerstab.png);
     }
-    .col-sm-6:nth-child(16) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(16) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/laminatestab.png);
     }
-    .col-sm-6:nth-child(17) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(17) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/salwoodtab.png);
     }
-    .col-sm-6:nth-child(18) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(18) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/walnutwoodtab.png);
     }
-    .col-sm-6:nth-child(19) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(19) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/oakwoodtab.png);
     }
-    .col-sm-6:nth-child(20) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(20) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/pinewoodtab.png);
     }
-    .col-sm-6:nth-child(21) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(21) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/beechwoodtab.png);
     }
-    .col-sm-6:nth-child(22) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(22) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/tabletopstab.png);
     }
-    .col-sm-6:nth-child(23) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(23) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/sleeperwoodtab.png);
     }
-    .col-sm-6:nth-child(24) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(24) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/customizedfurnituremakingtab.png);
     }
-    .col-sm-6:nth-child(25) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(25) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/woodenbeadingtab.png);
     }
-    .col-sm-6:nth-child(26) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(26) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/jaalipartitionstab.png);
     }
 }
 
 @media screen and (max-width:766px) {
-    .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/timbermobile.png);
     }
-    .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/teakmobile.png);
     }
-    .col-sm-6:nth-child(3) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(3) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/nonteakmobile.png);
     }
-    .col-sm-6:nth-child(4) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(4) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/doorsmobile.png);
     }
-    .col-sm-6:nth-child(5) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(5) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/woodenframesmobile.png);
     }
-    .col-sm-6:nth-child(6) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(6) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/railingsmobile.png);
     }
-    .col-sm-6:nth-child(7) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(7) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/carvingmobile.png);
     }
-    .col-sm-6:nth-child(8) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(8) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/cnccuttingmobile.png);
     }
-    .col-sm-6:nth-child(9) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(9) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/woodenflooringmobile.png);
     }
-    .col-sm-6:nth-child(10) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(10) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/solidsurfacemobile.png);
     }
-    .col-sm-6:nth-child(11) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(11) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/burmeseteakwoodmobile.png);
     }
-    .col-sm-6:nth-child(12) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(12) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/indianteakwoodmobile.png);
     }
-    .col-sm-6:nth-child(13) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(13) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/africanteakwoodmobile.png);
     }
-    .col-sm-6:nth-child(14) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(14) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/plywoodmobile.png);
     }
-    .col-sm-6:nth-child(15) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(15) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/veneersmobile.png);
     }
-    .col-sm-6:nth-child(16) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(16) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/laminatesmobile.png);
     }
-    .col-sm-6:nth-child(17) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(17) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/salwoodmobile.png);
     }
-    .col-sm-6:nth-child(18) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(18) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/walnutwoodmobile.png);
     }
-    .col-sm-6:nth-child(19) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(19) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/oakwoodmobile.png);
     }
-    .col-sm-6:nth-child(20) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(20) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/pinewoodmobile.png);
     }
-    .col-sm-6:nth-child(21) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(21) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/beechwoodmobile.png);
     }
-    .col-sm-6:nth-child(22) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(22) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/tabletopsmobile.png);
     }
-    .col-sm-6:nth-child(23) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(23) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/sleeperwoodmobile.png);
     }
-    .col-sm-6:nth-child(24) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(24) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/customizedfurnituremakingmobile.png);
     }
-    .col-sm-6:nth-child(25) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(25) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/woodenbeadingmobile.png);
     }
-    .col-sm-6:nth-child(26) .flip-card .flip-card-inner .flip-card-front {
+    .row .col-sm-6:nth-child(26) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/jaalipartitionsmobile.png);
     }
 }
