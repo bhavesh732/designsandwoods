@@ -11,11 +11,11 @@ function hidefunction() {
         if (prevScrollpos > currentScrollPos) {
             document.getElementById("header").style.top = "0";
             document.getElementById("header").style.transition = "0.5s";
-            document.getElementById("header").style.position = "sticky";
+            // document.getElementById("header").style.position = "sticky";
         } else {
             document.getElementById("header").style.top = "-100px";
             document.getElementById("header").style.transition = "0.5s";
-            document.getElementById("header").style.position = "absolute";
+            // document.getElementById("header").style.position = "absolute";
         }
         prevScrollpos = currentScrollPos;
     }
