@@ -5,10 +5,11 @@ form {
 input {
     width: 100%;
     border: none;
+    border: 1px solid rgb( 220, 220, 220);
     border-bottom: 2px solid #102452;
     margin: 2vh 0vh;
     padding: 2vh;
-    font-weight: 500;
+    font-weight: 900;
 }
 
 .name {
@@ -20,6 +21,54 @@ input {
     float: right;
 }
 
+input:focus {
+    /* box-shadow: inset 0 0 8px 1px rgb(126, 121, 121); */
+    border-bottom: 4px solid #102452;
+}
+
+textarea {
+    border: 1px solid rgb(220, 220, 220);
+    border-bottom: 2px solid #102452;
+    width: 100%;
+    height: 30vh;
+    padding: 2vh;
+    margin: 2vh 0vh;
+    font-weight: 900;
+}
+
+a:hover,
+a {
+    text-decoration: none;
+    color: #f87060;
+}
+
+iframe {
+    height: 450px;
+    width: 600px;
+}
+
+#heading {
+    text-align: left;
+    font-weight: 900;
+    margin: 0vh;
+    padding: 15px;
+}
+
+#heading2 {
+    text-align: center;
+    font-weight: 900;
+    margin: 2.5vh;
+}
+
+.address {
+    margin: 15px 0px;
+}
+
+.map {
+    padding: 7px;
+    margin: 15px 0px;
+}
+
 @media screen and (max-width:766px) {
     input {
         width: 90%;
@@ -28,5 +77,19 @@ input {
         margin: 2.5%;
         padding: 2.5%;
         font-weight: 500;
+    }
+    .name {
+        width: 45%;
+        margin-right: 0px;
+        margin-left: 5%;
+    }
+    .name:nth-child(2) {
+        margin-left: 0px;
+        margin-right: 5%;
+        border-left: 1px solid lightgrey;
+    }
+    iframe {
+        width: 90vw;
+        height: 67.5vw;
     }
 }

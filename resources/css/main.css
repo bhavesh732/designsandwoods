@@ -330,6 +330,25 @@ nav ul li:nth-child(6) {
     background-image: url(../images/slideshow/11.png);
 }
 
+.carousel-control-next span,
+.carousel-control-prev span {
+    display: none;
+}
+
+.carousel-control-next:after {
+    content: '>';
+    font-size: 55px;
+    font-weight: 900;
+    color: #102542;
+}
+
+.carousel-control-prev:after {
+    content: '<';
+    font-size: 55px;
+    font-weight: 900;
+    color: #102542;
+}
+
 .vertalign {
     height: 100%;
     display: flex;
@@ -426,6 +445,10 @@ nav ul li:nth-child(6) {
     }
     .carousel-item:nth-child(11) .container {
         background-image: url(../images/slideshow/11mobile.png);
+    }
+    .carousel-control-next:after,
+    .carousel-control-prev:after {
+        font-size: 30px;
     }
 }
 
