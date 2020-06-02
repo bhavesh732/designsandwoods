@@ -196,279 +196,286 @@ footer {
 }
 
 .row .col-sm-6 .flip-card .flip-card-inner .flip-card-front {
-    background-size: 100%;
+    background-size: 115%;
     background-position: center;
     background-repeat: no-repeat;
     transition: 1s;
 }
 
 .row .col-sm-6:hover .flip-card .flip-card-inner .flip-card-front {
-    background-size: 120%;
+    background-size: 140%;
     transition: 1s;
 }
 
 .row:nth-child(1) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/timberpc.png);
+    background-image: url(../images/products/timberpc.webp);
 }
 
 .row:nth-child(1) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/teakpc.png);
+    background-image: url(../images/products/teakpc.webp);
 }
 
 .row:nth-child(2) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/nonteakpc.png);
+    background-image: url(../images/products/nonteakpc.webp);
 }
 
 .row:nth-child(2) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/doorspc.png);
+    background-image: url(../images/products/burmeseteakwoodpc.webp);
 }
 
 .row:nth-child(3) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/woodenframespc.png);
+    background-image: url(../images/products/indianteakwoodpc.webp);
 }
 
 .row:nth-child(3) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/railingspc.png);
+    background-image: url(../images/products/africanteakwoodpc.webp);
 }
 
 .row:nth-child(4) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/carvingpc.png);
+    background-image: url(../images/products/salwoodpc.webp);
 }
 
 .row:nth-child(4) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/cnccuttingpc.png);
+    background-image: url(../images/products/walnutwoodpc.webp);
 }
 
 .row:nth-child(5) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/woodenflooringpc.png);
+    background-image: url(../images/products/oakwoodpc.webp);
 }
 
 .row:nth-child(5) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/solidsurfacepc.png);
+    background-image: url(../images/products/pinewoodpc.webp);
 }
 
 .row:nth-child(6) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/burmeseteakwoodpc.png);
+    background-image: url(../images/products/beechwoodpc.webp);
 }
 
 .row:nth-child(6) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/indianteakwoodpc.png);
+    background-image: url(../images/products/doorspc.webp);
 }
 
 .row:nth-child(7) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/africanteakwoodpc.png);
+    background-image: url(../images/products/woodenframespc.webp);
 }
 
 .row:nth-child(7) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/plywoodpc.png);
+    background-image: url(../images/products/carvingpc.webp);
 }
 
 .row:nth-child(8) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/veneerspc.png);
+    background-image: url(../images/products/railingspc.webp);
 }
 
 .row:nth-child(8) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/laminatespc.png);
+    background-image: url(../images/products/woodenflooringpc.webp);
 }
 
 .row:nth-child(9) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/salwoodpc.png);
+    background-image: url(../images/products/solidsurfacepc.webp);
 }
 
 .row:nth-child(9) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/walnutwoodpc.png);
+    background-image: url(../images/products/cnccuttingpc.webp);
 }
 
 .row:nth-child(10) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/oakwoodpc.png);
+    background-image: url(../images/products/plywoodpc.webp);
 }
 
 .row:nth-child(10) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/pinewoodpc.png);
+    background-image: url(../images/products/veneerspc.webp);
 }
 
 .row:nth-child(11) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/beechwoodpc.png);
+    background-image: url(../images/products/laminatespc.webp);
 }
 
 .row:nth-child(11) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/tabletopspc.png);
+    background-image: url(../images/products/sleeperwoodpc.webp);
 }
 
 .row:nth-child(12) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/sleeperwoodpc.png);
+    background-image: url(../images/products/tabletopspc.webp);
 }
 
 .row:nth-child(12) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/customizedfurnituremakingpc.png);
+    background-image: url(../images/products/customizedfurnituremakingpc.webp);
 }
 
 .row:nth-child(13) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/woodenbeadingpc.png);
+    background-image: url(../images/products/woodenbeadingpc.webp);
 }
 
 .row:nth-child(13) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/jaalipartitionspc.png);
+    background-image: url(../images/products/jaalipartitionspc.webp);
 }
 
 @media screen and (max-width:800px) {
     .row:nth-child(1) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/timbertab.png);
+        background-image: url(../images/products/timbertab.webp);
     }
     .row:nth-child(1) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/teaktab.png);
+        background-image: url(../images/products/teaktab.webp);
     }
     .row:nth-child(2) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/nonteaktab.png);
+        background-image: url(../images/products/nonteaktab.webp);
     }
     .row:nth-child(2) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/doorstab.png);
+        background-image: url(../images/products/burmeseteakwoodtab.webp);
     }
     .row:nth-child(3) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/woodenframestab.png);
+        background-image: url(../images/products/indianteakwoodtab.webp);
     }
     .row:nth-child(3) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/railingstab.png);
+        background-image: url(../images/products/africanteakwoodtab.webp);
     }
     .row:nth-child(4) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/carvingtab.png);
+        background-image: url(../images/products/salwoodtab.webp);
     }
     .row:nth-child(4) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/cnccuttingtab.png);
+        background-image: url(../images/products/walnutwoodtab.webp);
     }
     .row:nth-child(5) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/woodenflooringtab.png);
+        background-image: url(../images/products/oakwoodtab.webp);
     }
     .row:nth-child(5) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/solidsurfacetab.png);
+        background-image: url(../images/products/pinewoodtab.webp);
     }
     .row:nth-child(6) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/burmeseteakwoodtab.png);
+        background-image: url(../images/products/beechwoodtab.webp);
     }
     .row:nth-child(6) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/indianteakwoodtab.png);
+        background-image: url(../images/products/doorstab.webp);
     }
     .row:nth-child(7) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/africanteakwoodtab.png);
+        background-image: url(../images/products/woodenframestab.webp);
     }
     .row:nth-child(7) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/plywoodtab.png);
+        background-image: url(../images/products/carvingtab.webp);
     }
     .row:nth-child(8) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/veneerstab.png);
+        background-image: url(../images/products/railingstab.webp);
     }
     .row:nth-child(8) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/laminatestab.png);
+        background-image: url(../images/products/woodenflooringtab.webp);
     }
     .row:nth-child(9) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/salwoodtab.png);
+        background-image: url(../images/products/solidsurfacetab.webp);
     }
     .row:nth-child(9) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/walnutwoodtab.png);
+        background-image: url(../images/products/cnccuttingtab.webp);
     }
     .row:nth-child(10) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/oakwoodtab.png);
+        background-image: url(../images/products/plywoodtab.webp);
     }
     .row:nth-child(10) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/pinewoodtab.png);
+        background-image: url(../images/products/veneerstab.webp);
     }
     .row:nth-child(11) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/beechwoodtab.png);
+        background-image: url(../images/products/laminatestab.webp);
     }
     .row:nth-child(11) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/tabletopstab.png);
+        background-image: url(../images/products/sleeperwoodtab.webp);
     }
     .row:nth-child(12) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/sleeperwoodtab.png);
+        background-image: url(../images/products/tabletopstab.webp);
     }
     .row:nth-child(12) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/customizedfurnituremakingtab.png);
+        background-image: url(../images/products/customizedfurnituremakingtab.webp);
     }
     .row:nth-child(13) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/woodenbeadingtab.png);
+        background-image: url(../images/products/woodenbeadingtab.webp);
     }
     .row:nth-child(13) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/jaalipartitionstab.png);
+        background-image: url(../images/products/jaalipartitionstab.webp);
+    }
+    .flip-card-back .col-sm-12 p {
+        font-size: medium !important;
     }
 }
 
 @media screen and (max-width:766px) {
     .row:nth-child(1) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/timbermobile.png);
+        background-image: url(../images/products/timbermobile.webp);
     }
     .row:nth-child(1) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/teakmobile.png);
+        background-image: url(../images/products/teakmobile.webp);
     }
     .row:nth-child(2) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/nonteakmobile.png);
+        background-image: url(../images/products/nonteakmobile.webp);
     }
     .row:nth-child(2) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/doorsmobile.png);
+        background-image: url(../images/products/burmeseteakwoodmobile.webp);
     }
     .row:nth-child(3) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/woodenframesmobile.png);
+        background-image: url(../images/products/indianteakwoodmobile.webp);
     }
     .row:nth-child(3) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/railingsmobile.png);
+        background-image: url(../images/products/africanteakwoodmobile.webp);
     }
     .row:nth-child(4) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/carvingmobile.png);
+        background-image: url(../images/products/salwoodmobile.webp);
     }
     .row:nth-child(4) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/cnccuttingmobile.png);
+        background-image: url(../images/products/walnutwoodmobile.webp);
     }
     .row:nth-child(5) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/woodenflooringmobile.png);
+        background-image: url(../images/products/oakwoodmobile.webp);
     }
     .row:nth-child(5) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/solidsurfacemobile.png);
+        background-image: url(../images/products/pinewoodmobile.webp);
     }
     .row:nth-child(6) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/burmeseteakwoodmobile.png);
+        background-image: url(../images/products/beechwoodmobile.webp);
     }
     .row:nth-child(6) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/indianteakwoodmobile.png);
+        background-image: url(../images/products/doorsmobile.webp);
     }
     .row:nth-child(7) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/africanteakwoodmobile.png);
+        background-image: url(../images/products/woodenframesmobile.webp);
     }
     .row:nth-child(7) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/plywoodmobile.png);
+        background-image: url(../images/products/carvingmobile.webp);
     }
     .row:nth-child(8) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/veneersmobile.png);
+        background-image: url(../images/products/railingsmobile.webp);
     }
     .row:nth-child(8) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/laminatesmobile.png);
+        background-image: url(../images/products/woodenflooringmobile.webp);
     }
     .row:nth-child(9) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/salwoodmobile.png);
+        background-image: url(../images/products/solidsurfacemobile.webp);
     }
     .row:nth-child(9) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/walnutwoodmobile.png);
+        background-image: url(../images/products/cnccuttingmobile.webp);
     }
     .row:nth-child(10) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/oakwoodmobile.png);
+        background-image: url(../images/products/plywoodmobile.webp);
     }
     .row:nth-child(10) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/pinewoodmobile.png);
+        background-image: url(../images/products/veneersmobile.webp);
     }
     .row:nth-child(11) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/beechwoodmobile.png);
+        background-image: url(../images/products/laminatesmobile.webp);
     }
     .row:nth-child(11) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/tabletopsmobile.png);
+        background-image: url(../images/products/sleeperwoodmobile.webp);
     }
     .row:nth-child(12) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/sleeperwoodmobile.png);
+        background-image: url(../images/products/tabletopsmobile.webp);
     }
     .row:nth-child(12) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/customizedfurnituremakingmobile.png);
+        background-image: url(../images/products/customizedfurnituremakingmobile.webp);
     }
     .row:nth-child(13) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/woodenbeadingmobile.png);
+        background-image: url(../images/products/woodenbeadingmobile.webp);
     }
     .row:nth-child(13) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/jaalipartitionsmobile.png);
+        background-image: url(../images/products/jaalipartitionsmobile.webp);
+    }
+    .flip-card-front,
+    .flip-card-back {
+        margin: 0px;
     }
 }
