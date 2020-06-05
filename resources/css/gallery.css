@@ -107,7 +107,7 @@
 
 @media screen and (max-width: 766px) {
     .bigcol {
-        grid-template-rows: 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh;
+        grid-template-rows: 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh;
         padding: 0px;
         margin: 5px;
     }
@@ -179,10 +179,13 @@
         grid-column: span 2;
     }
     .bigcol .item:nth-child(6),
-    .bigcol .item:nth-child(11),
-    .bigcol .item:nth-child(12),
     .bigcol .item:nth-child(15) {
         grid-row: span 4;
+        grid-column: span 2;
+    }
+    .bigcol .item:nth-child(11),
+    .bigcol .item:nth-child(12) {
+        grid-row: span 3;
         grid-column: span 2;
     }
     .bigcol .item:nth-child(2),
