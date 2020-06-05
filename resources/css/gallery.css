@@ -23,7 +23,7 @@
 }
 
 .bigcol .item:nth-child(1),
-.bigcol .item:nth-child(54) {
+.bigcol .item:nth-child(55) {
     grid-row: span 4;
     grid-column: span 4;
 }
@@ -105,6 +105,10 @@
     grid-column: span 1;
 }
 
+.bigcol .item:nth-child(54) {
+    display: none;
+}
+
 @media screen and (max-width: 766px) {
     .bigcol {
         grid-template-rows: 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh;
@@ -112,7 +116,7 @@
         margin: 5px;
     }
     .bigcol .item:nth-child(1),
-    .bigcol .item:nth-child(54) {
+    .bigcol .item:nth-child(55) {
         grid-row: span 3;
         grid-column: span 4;
     }
@@ -164,9 +168,11 @@
     .bigcol .item:nth-child(50),
     .bigcol .item:nth-child(51),
     .bigcol .item:nth-child(52),
-    .bigcol .item:nth-child(53) {
+    .bigcol .item:nth-child(53),
+    .bigcol .item:nth-child(54) {
         grid-row: span 4;
         grid-column: span 2;
+        display: block;
     }
     .bigcol .item:nth-child(29),
     .bigcol .item:nth-child(30) {
