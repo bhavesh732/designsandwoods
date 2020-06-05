@@ -107,8 +107,9 @@
 
 @media screen and (max-width: 766px) {
     .bigcol {
-        grid-template-rows: 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh;
+        grid-template-rows: 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh 11vh;
         padding: 0px;
+        margin: 5px;
     }
     .bigcol .item:nth-child(1),
     .bigcol .item:nth-child(54) {
