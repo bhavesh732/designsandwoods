@@ -450,6 +450,10 @@ nav ul li:nth-child(6) {
     .carousel-control-prev:after {
         font-size: 30px;
     }
+    #products .container,
+    #products .container .col-sm-6 {
+        padding: 0px;
+    }
 }
 
 
