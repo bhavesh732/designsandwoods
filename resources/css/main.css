@@ -287,47 +287,47 @@ nav ul li:nth-child(6) {
 }
 
 .carousel-item:nth-child(1) .container {
-    background-image: url(../images/slideshow/1.png);
+    background-image: url(../images/slideshow/1.webp);
 }
 
 .carousel-item:nth-child(2) .container {
-    background-image: url(../images/slideshow/2.png);
+    background-image: url(../images/slideshow/2.webp);
 }
 
 .carousel-item:nth-child(3) .container {
-    background-image: url(../images/slideshow/3.png);
+    background-image: url(../images/slideshow/3.webp);
 }
 
 .carousel-item:nth-child(4) .container {
-    background-image: url(../images/slideshow/4.png);
+    background-image: url(../images/slideshow/4.webp);
 }
 
 .carousel-item:nth-child(5) .container {
-    background-image: url(../images/slideshow/5.png);
+    background-image: url(../images/slideshow/5.webp);
 }
 
 .carousel-item:nth-child(6) .container {
-    background-image: url(../images/slideshow/6.png);
+    background-image: url(../images/slideshow/6.webp);
 }
 
 .carousel-item:nth-child(7) .container {
-    background-image: url(../images/slideshow/7.png);
+    background-image: url(../images/slideshow/7.webp);
 }
 
 .carousel-item:nth-child(8) .container {
-    background-image: url(../images/slideshow/8.png);
+    background-image: url(../images/slideshow/8.webp);
 }
 
 .carousel-item:nth-child(9) .container {
-    background-image: url(../images/slideshow/9.png);
+    background-image: url(../images/slideshow/9.webp);
 }
 
 .carousel-item:nth-child(10) .container {
-    background-image: url(../images/slideshow/10.png);
+    background-image: url(../images/slideshow/10.webp);
 }
 
 .carousel-item:nth-child(11) .container {
-    background-image: url(../images/slideshow/11.png);
+    background-image: url(../images/slideshow/11.webp);
 }
 
 .carousel-control-next span,
@@ -414,37 +414,37 @@ nav ul li:nth-child(6) {
         margin-bottom: 0%;
     }
     .carousel-item:nth-child(1) .container {
-        background-image: url(../images/slideshow/1mobile.png);
+        background-image: url(../images/slideshow/mobile/1.webp);
     }
     .carousel-item:nth-child(2) .container {
-        background-image: url(../images/slideshow/2mobile.png);
+        background-image: url(../images/slideshow/mobile/2.webp);
     }
     .carousel-item:nth-child(3) .container {
-        background-image: url(../images/slideshow/3mobile.png);
+        background-image: url(../images/slideshow/mobile/3.webp);
     }
     .carousel-item:nth-child(4) .container {
-        background-image: url(../images/slideshow/4mobile.png);
+        background-image: url(../images/slideshow/mobile/4.webp);
     }
     .carousel-item:nth-child(5) .container {
-        background-image: url(../images/slideshow/5mobile.png);
+        background-image: url(../images/slideshow/mobile/5.webp);
     }
     .carousel-item:nth-child(6) .container {
-        background-image: url(../images/slideshow/6mobile.png);
+        background-image: url(../images/slideshow/mobile/6.webp);
     }
     .carousel-item:nth-child(7) .container {
-        background-image: url(../images/slideshow/7mobile.png);
+        background-image: url(../images/slideshow/mobile/7.webp);
     }
     .carousel-item:nth-child(8) .container {
-        background-image: url(../images/slideshow/8mobile.png);
+        background-image: url(../images/slideshow/mobile/8.webp);
     }
     .carousel-item:nth-child(9) .container {
-        background-image: url(../images/slideshow/9mobile.png);
+        background-image: url(../images/slideshow/mobile/9.webp);
     }
     .carousel-item:nth-child(10) .container {
-        background-image: url(../images/slideshow/10mobile.png);
+        background-image: url(../images/slideshow/mobile/10.webp);
     }
     .carousel-item:nth-child(11) .container {
-        background-image: url(../images/slideshow/11mobile.png);
+        background-image: url(../images/slideshow/mobile/11.webp);
     }
     .carousel-control-next:after,
     .carousel-control-prev:after {
