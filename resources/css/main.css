@@ -123,6 +123,8 @@ section img {
 
 .setwidth {
     width: fit-content;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
 }
 
 header div.container {
@@ -236,6 +238,8 @@ nav ul li:nth-child(6) {
     .navbar-brand {
         line-height: 0px;
         height: fit-content;
+        height: -moz-fit-content;
+        height: -webkit-fit-content;
         margin: 1.5%;
         margin-right: auto;
         display: block;
@@ -392,6 +396,8 @@ nav ul li:nth-child(6) {
 
 .flip-card-back .col-sm-12 p {
     height: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     width: 100%;
     margin-top: auto;
     margin-bottom: auto;
@@ -405,6 +411,8 @@ nav ul li:nth-child(6) {
         text-align: center;
         width: 100%;
         height: fit-content;
+        height: -moz-fit-content;
+        height: -webkit-fit-content;
     }
     .home h1 {
         font-size: 35px;
@@ -473,6 +481,8 @@ nav ul li:nth-child(6) {
     text-align: center;
     /* margin: 2vw; */
     height: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     /* padding: 5vh 0vh; */
 }
 
@@ -537,6 +547,7 @@ i:before {
 #about {
     /* background-color: #f87060; */
     text-align: center;
+    transition: 1s;
 }
 
 #about button {
@@ -554,6 +565,8 @@ i:before {
 #about button h1 {
     font-weight: 900;
     width: fit-content;
+    width: -moz-fit-content;
+    width: width-fit-content;
     margin: auto;
     color: #fff;
 }
@@ -568,6 +581,7 @@ i:before {
     background-color: #fff;
     /* background-color: rgba(0, 0, 0, 1); */
     width: 50%;
+    -moz-width: 40%;
     transition: 1s;
     -moz-transition: 1s;
     -webkit-transition: 1s;
@@ -575,10 +589,14 @@ i:before {
 
 #about button h1 span:before {
     transform: translateY(9px) translateX(4px) rotate(15deg);
+    -webkit-transform: translateY(9px) translateX(4px) rotate(15deg);
+    -moz-transform: translateY(9px) translateX(4px) rotate(15deg);
 }
 
 #about button h1 span:after {
     transform: translateY(-0.5px) translateX(96%) rotate(165deg);
+    -webkit-transform: translateY(-0.5px) translateX(96%) rotate(165deg);
+    -moz-transform: translateY(-0.5px) translateX(96%) rotate(165deg);
 }
 
 #about button.about-width h1 span {
@@ -653,6 +671,8 @@ i:before {
 
 .aboutdiv-visible .row {
     height: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     position: relative;
     z-index: 1;
     transition: 1s;
@@ -666,6 +686,8 @@ i:before {
 .aboutdiv-visible .row .col-sm-6 h6 {
     visibility: visible;
     height: fit-content;
+    height: -moz-fit-content;
+    height: -webkit-fit-content;
 }
 
 .aboutuscards .row {
@@ -687,6 +709,8 @@ i:before {
 
 .bodyheight {
     max-height: fit-content;
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
 }
 
 .col-sm-6 h6 {
@@ -871,6 +895,8 @@ footer {
     background-color: transparent;
     margin: auto;
     width: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
 }
 
 .social-media-footer a {
