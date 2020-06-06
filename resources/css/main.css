@@ -736,7 +736,7 @@ p span {
     position: relative;
     text-align: center;
     transition: transform 1s;
-    -webkit-transition: transform 1s;
+    -webkit-transition: -webkit-transform 1s;
     transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
     height: 100%;
