@@ -237,83 +237,83 @@ footer {
 }
 
 .row:nth-child(2) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/pc/4.jpg);
-}
-
-.row:nth-child(3) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/pc/5.jpg);
-}
-
-.row:nth-child(3) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/pc/6.jpg);
-}
-
-.row:nth-child(4) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/pc/7.jpg);
-}
-
-.row:nth-child(4) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/pc/8.jpg);
-}
-
-.row:nth-child(5) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/pc/9.jpg);
-}
-
-.row:nth-child(5) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/pc/10.jpg);
-}
-
-.row:nth-child(6) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
     background-image: url(../images/products/pc/11.jpg);
 }
 
-.row:nth-child(6) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
+.row:nth-child(3) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
     background-image: url(../images/products/pc/12.jpg);
 }
 
-.row:nth-child(7) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
+.row:nth-child(3) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
     background-image: url(../images/products/pc/13.jpg);
 }
 
-.row:nth-child(7) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/pc/14.jpg);
-}
-
-.row:nth-child(8) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/pc/15.jpg);
-}
-
-.row:nth-child(8) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/pc/16.jpg);
-}
-
-.row:nth-child(9) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
+.row:nth-child(4) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
     background-image: url(../images/products/pc/17.jpg);
 }
 
-.row:nth-child(9) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
+.row:nth-child(4) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
     background-image: url(../images/products/pc/18.jpg);
 }
 
-.row:nth-child(10) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
+.row:nth-child(5) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
     background-image: url(../images/products/pc/19.jpg);
 }
 
-.row:nth-child(10) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
+.row:nth-child(5) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
     background-image: url(../images/products/pc/20.jpg);
 }
 
-.row:nth-child(11) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
+.row:nth-child(6) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
     background-image: url(../images/products/pc/21.jpg);
 }
 
+.row:nth-child(6) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
+    background-image: url(../images/products/pc/4.jpg);
+}
+
+.row:nth-child(7) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
+    background-image: url(../images/products/pc/5.jpg);
+}
+
+.row:nth-child(7) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
+    background-image: url(../images/products/pc/7.jpg);
+}
+
+.row:nth-child(8) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
+    background-image: url(../images/products/pc/6.jpg);
+}
+
+.row:nth-child(8) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
+    background-image: url(../images/products/pc/9.jpg);
+}
+
+.row:nth-child(9) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
+    background-image: url(../images/products/pc/10.jpg);
+}
+
+.row:nth-child(9) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
+    background-image: url(../images/products/pc/8.jpg);
+}
+
+.row:nth-child(10) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
+    background-image: url(../images/products/pc/14.jpg);
+}
+
+.row:nth-child(10) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
+    background-image: url(../images/products/pc/15.jpg);
+}
+
+.row:nth-child(11) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
+    background-image: url(../images/products/pc/16.jpg);
+}
+
 .row:nth-child(11) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/pc/22.jpg);
+    background-image: url(../images/products/pc/23.jpg);
 }
 
 .row:nth-child(12) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/pc/23.jpg);
+    background-image: url(../images/products/pc/22.jpg);
 }
 
 .row:nth-child(12) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
@@ -339,64 +339,64 @@ footer {
         background-image: url(../images/products/tab/3.jpg);
     }
     .row:nth-child(2) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/tab/4.jpg);
-    }
-    .row:nth-child(3) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/tab/5.jpg);
-    }
-    .row:nth-child(3) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/tab/6.jpg);
-    }
-    .row:nth-child(4) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/tab/7.jpg);
-    }
-    .row:nth-child(4) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/tab/8.jpg);
-    }
-    .row:nth-child(5) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/tab/9.jpg);
-    }
-    .row:nth-child(5) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/tab/10.jpg);
-    }
-    .row:nth-child(6) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/tab/11.jpg);
     }
-    .row:nth-child(6) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
+    .row:nth-child(3) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/tab/12.jpg);
     }
-    .row:nth-child(7) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
+    .row:nth-child(3) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/tab/13.jpg);
     }
-    .row:nth-child(7) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/tab/14.jpg);
-    }
-    .row:nth-child(8) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/tab/15.jpg);
-    }
-    .row:nth-child(8) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/tab/16.jpg);
-    }
-    .row:nth-child(9) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
+    .row:nth-child(4) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/tab/17.jpg);
     }
-    .row:nth-child(9) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
+    .row:nth-child(4) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/tab/18.jpg);
     }
-    .row:nth-child(10) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
+    .row:nth-child(5) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/tab/19.jpg);
     }
-    .row:nth-child(10) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
+    .row:nth-child(5) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/tab/20.jpg);
     }
-    .row:nth-child(11) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
+    .row:nth-child(6) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/tab/21.jpg);
     }
+    .row:nth-child(6) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
+        background-image: url(../images/products/tab/4.jpg);
+    }
+    .row:nth-child(7) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
+        background-image: url(../images/products/tab/5.jpg);
+    }
+    .row:nth-child(7) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
+        background-image: url(../images/products/tab/7.jpg);
+    }
+    .row:nth-child(8) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
+        background-image: url(../images/products/tab/6.jpg);
+    }
+    .row:nth-child(8) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
+        background-image: url(../images/products/tab/9.jpg);
+    }
+    .row:nth-child(9) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
+        background-image: url(../images/products/tab/10.jpg);
+    }
+    .row:nth-child(9) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
+        background-image: url(../images/products/tab/8.jpg);
+    }
+    .row:nth-child(10) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
+        background-image: url(../images/products/tab/14.jpg);
+    }
+    .row:nth-child(10) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
+        background-image: url(../images/products/tab/15.jpg);
+    }
+    .row:nth-child(11) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
+        background-image: url(../images/products/tab/16.jpg);
+    }
     .row:nth-child(11) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/tab/22.jpg);
+        background-image: url(../images/products/tab/23.jpg);
     }
     .row:nth-child(12) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/tab/23.jpg);
+        background-image: url(../images/products/tab/22.jpg);
     }
     .row:nth-child(12) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/tab/24.jpg);
@@ -423,64 +423,64 @@ footer {
         background-image: url(../images/products/mobile/3.jpg);
     }
     .row:nth-child(2) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/mobile/4.jpg);
-    }
-    .row:nth-child(3) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/mobile/5.jpg);
-    }
-    .row:nth-child(3) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/mobile/6.jpg);
-    }
-    .row:nth-child(4) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/mobile/7.jpg);
-    }
-    .row:nth-child(4) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/mobile/8.jpg);
-    }
-    .row:nth-child(5) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/mobile/9.jpg);
-    }
-    .row:nth-child(5) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/mobile/10.jpg);
-    }
-    .row:nth-child(6) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/mobile/11.jpg);
     }
-    .row:nth-child(6) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
+    .row:nth-child(3) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/mobile/12.jpg);
     }
-    .row:nth-child(7) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
+    .row:nth-child(3) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/mobile/13.jpg);
     }
-    .row:nth-child(7) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/mobile/14.jpg);
-    }
-    .row:nth-child(8) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/mobile/15.jpg);
-    }
-    .row:nth-child(8) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/mobile/16.jpg);
-    }
-    .row:nth-child(9) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
+    .row:nth-child(4) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/mobile/17.jpg);
     }
-    .row:nth-child(9) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
+    .row:nth-child(4) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/mobile/18.jpg);
     }
-    .row:nth-child(10) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
+    .row:nth-child(5) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/mobile/19.jpg);
     }
-    .row:nth-child(10) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
+    .row:nth-child(5) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/mobile/20.jpg);
     }
-    .row:nth-child(11) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
+    .row:nth-child(6) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/mobile/21.jpg);
     }
+    .row:nth-child(6) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
+        background-image: url(../images/products/mobile/4.jpg);
+    }
+    .row:nth-child(7) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
+        background-image: url(../images/products/mobile/5.jpg);
+    }
+    .row:nth-child(7) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
+        background-image: url(../images/products/mobile/7.jpg);
+    }
+    .row:nth-child(8) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
+        background-image: url(../images/products/mobile/6.jpg);
+    }
+    .row:nth-child(8) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
+        background-image: url(../images/products/mobile/9.jpg);
+    }
+    .row:nth-child(9) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
+        background-image: url(../images/products/mobile/10.jpg);
+    }
+    .row:nth-child(9) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
+        background-image: url(../images/products/mobile/8.jpg);
+    }
+    .row:nth-child(10) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
+        background-image: url(../images/products/mobile/14.jpg);
+    }
+    .row:nth-child(10) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
+        background-image: url(../images/products/mobile/15.jpg);
+    }
+    .row:nth-child(11) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
+        background-image: url(../images/products/mobile/16.jpg);
+    }
     .row:nth-child(11) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/mobile/22.jpg);
+        background-image: url(../images/products/mobile/23.jpg);
     }
     .row:nth-child(12) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/mobile/23.jpg);
+        background-image: url(../images/products/mobile/22.jpg);
     }
     .row:nth-child(12) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/mobile/24.jpg);
