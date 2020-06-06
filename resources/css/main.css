@@ -287,47 +287,47 @@ nav ul li:nth-child(6) {
 }
 
 .carousel-item:nth-child(1) .container {
-    background-image: url(../images/slideshow/1.webp);
+    background-image: url(../images/slideshow/1.jpg);
 }
 
 .carousel-item:nth-child(2) .container {
-    background-image: url(../images/slideshow/2.webp);
+    background-image: url(../images/slideshow/2.jpg);
 }
 
 .carousel-item:nth-child(3) .container {
-    background-image: url(../images/slideshow/3.webp);
+    background-image: url(../images/slideshow/3.jpg);
 }
 
 .carousel-item:nth-child(4) .container {
-    background-image: url(../images/slideshow/4.webp);
+    background-image: url(../images/slideshow/4.jpg);
 }
 
 .carousel-item:nth-child(5) .container {
-    background-image: url(../images/slideshow/5.webp);
+    background-image: url(../images/slideshow/5.jpg);
 }
 
 .carousel-item:nth-child(6) .container {
-    background-image: url(../images/slideshow/6.webp);
+    background-image: url(../images/slideshow/6.jpg);
 }
 
 .carousel-item:nth-child(7) .container {
-    background-image: url(../images/slideshow/7.webp);
+    background-image: url(../images/slideshow/7.jpg);
 }
 
 .carousel-item:nth-child(8) .container {
-    background-image: url(../images/slideshow/8.webp);
+    background-image: url(../images/slideshow/8.jpg);
 }
 
 .carousel-item:nth-child(9) .container {
-    background-image: url(../images/slideshow/9.webp);
+    background-image: url(../images/slideshow/9.jpg);
 }
 
 .carousel-item:nth-child(10) .container {
-    background-image: url(../images/slideshow/10.webp);
+    background-image: url(../images/slideshow/10.jpg);
 }
 
 .carousel-item:nth-child(11) .container {
-    background-image: url(../images/slideshow/11.webp);
+    background-image: url(../images/slideshow/11.jpg);
 }
 
 .carousel-control-next span,
@@ -414,37 +414,37 @@ nav ul li:nth-child(6) {
         margin-bottom: 0%;
     }
     .carousel-item:nth-child(1) .container {
-        background-image: url(../images/slideshow/mobile/1.webp);
+        background-image: url(../images/slideshow/mobile/1.jpg);
     }
     .carousel-item:nth-child(2) .container {
-        background-image: url(../images/slideshow/mobile/2.webp);
+        background-image: url(../images/slideshow/mobile/2.jpg);
     }
     .carousel-item:nth-child(3) .container {
-        background-image: url(../images/slideshow/mobile/3.webp);
+        background-image: url(../images/slideshow/mobile/3.jpg);
     }
     .carousel-item:nth-child(4) .container {
-        background-image: url(../images/slideshow/mobile/4.webp);
+        background-image: url(../images/slideshow/mobile/4.jpg);
     }
     .carousel-item:nth-child(5) .container {
-        background-image: url(../images/slideshow/mobile/5.webp);
+        background-image: url(../images/slideshow/mobile/5.jpg);
     }
     .carousel-item:nth-child(6) .container {
-        background-image: url(../images/slideshow/mobile/6.webp);
+        background-image: url(../images/slideshow/mobile/6.jpg);
     }
     .carousel-item:nth-child(7) .container {
-        background-image: url(../images/slideshow/mobile/7.webp);
+        background-image: url(../images/slideshow/mobile/7.jpg);
     }
     .carousel-item:nth-child(8) .container {
-        background-image: url(../images/slideshow/mobile/8.webp);
+        background-image: url(../images/slideshow/mobile/8.jpg);
     }
     .carousel-item:nth-child(9) .container {
-        background-image: url(../images/slideshow/mobile/9.webp);
+        background-image: url(../images/slideshow/mobile/9.jpg);
     }
     .carousel-item:nth-child(10) .container {
-        background-image: url(../images/slideshow/mobile/10.webp);
+        background-image: url(../images/slideshow/mobile/10.jpg);
     }
     .carousel-item:nth-child(11) .container {
-        background-image: url(../images/slideshow/mobile/11.webp);
+        background-image: url(../images/slideshow/mobile/11.jpg);
     }
     .carousel-control-next:after,
     .carousel-control-prev:after {
@@ -716,6 +716,7 @@ p span {
 .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
 }
 
 .flip-card-front,
@@ -727,6 +728,7 @@ p span {
     top: 0px;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
     display: flex;
     text-align: center;
     border: 2px solid black;
@@ -737,8 +739,10 @@ p span {
     text-align: center;
     transition: transform 1s;
     -webkit-transition: -webkit-transform 1s;
+    -moz-transition: -moz-transform 1s;
     transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
     height: 100%;
 }
 
@@ -747,6 +751,7 @@ p span {
     color: rgb(255, 255, 255);
     transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
     position: absolute;
     height: 100%;
 }
