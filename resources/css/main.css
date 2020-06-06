@@ -256,10 +256,12 @@ nav ul li:nth-child(6) {
         width: 100%;
     }
     section {
-        display: none;
+        /* display: none; */
+        height: 25vh;
     }
-    .social-media {
-        display: none;
+    section img {
+        height: 20vh;
+        margin: 2.5vh;
     }
     .navbar.navbar-expand-md.setwidth {
         padding: 0px;
@@ -275,6 +277,9 @@ nav ul li:nth-child(6) {
     }
     nav ul li a button:hover {
         transform: none;
+    }
+    #header {
+        padding: 10px;
     }
 }
 
