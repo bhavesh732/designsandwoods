@@ -253,19 +253,19 @@ footer {
 }
 
 .row:nth-child(4) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/pc/18.jpg);
-}
-
-.row:nth-child(5) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
     background-image: url(../images/products/pc/19.jpg);
 }
 
+.row:nth-child(5) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
+    background-image: url(../images/products/pc/18.jpg);
+}
+
 .row:nth-child(5) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/pc/20.jpg);
+    background-image: url(../images/products/pc/21.jpg);
 }
 
 .row:nth-child(6) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/pc/21.jpg);
+    background-image: url(../images/products/pc/20.jpg);
 }
 
 .row:nth-child(6) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
@@ -297,15 +297,15 @@ footer {
 }
 
 .row:nth-child(10) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/pc/14.jpg);
+    background-image: url(../images/products/pc/24.jpg);
 }
 
 .row:nth-child(10) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/pc/15.jpg);
+    background-image: url(../images/products/pc/26.jpg);
 }
 
 .row:nth-child(11) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/pc/16.jpg);
+    background-image: url(../images/products/pc/25.jpg);
 }
 
 .row:nth-child(11) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
@@ -317,15 +317,15 @@ footer {
 }
 
 .row:nth-child(12) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/pc/24.jpg);
+    background-image: url(../images/products/pc/14.jpg);
 }
 
 .row:nth-child(13) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/pc/25.jpg);
+    background-image: url(../images/products/pc/15.jpg);
 }
 
 .row:nth-child(13) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-    background-image: url(../images/products/pc/26.jpg);
+    background-image: url(../images/products/pc/16.jpg);
 }
 
 @media screen and (max-width:800px) {
@@ -351,16 +351,16 @@ footer {
         background-image: url(../images/products/tab/17.jpg);
     }
     .row:nth-child(4) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/tab/18.jpg);
-    }
-    .row:nth-child(5) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/tab/19.jpg);
     }
+    .row:nth-child(5) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
+        background-image: url(../images/products/tab/18.jpg);
+    }
     .row:nth-child(5) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/tab/20.jpg);
+        background-image: url(../images/products/tab/21.jpg);
     }
     .row:nth-child(6) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/tab/21.jpg);
+        background-image: url(../images/products/tab/20.jpg);
     }
     .row:nth-child(6) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/tab/4.jpg);
@@ -384,13 +384,13 @@ footer {
         background-image: url(../images/products/tab/8.jpg);
     }
     .row:nth-child(10) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/tab/14.jpg);
+        background-image: url(../images/products/tab/24.jpg);
     }
     .row:nth-child(10) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/tab/15.jpg);
+        background-image: url(../images/products/tab/26.jpg);
     }
     .row:nth-child(11) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/tab/16.jpg);
+        background-image: url(../images/products/tab/25.jpg);
     }
     .row:nth-child(11) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/tab/23.jpg);
@@ -399,16 +399,17 @@ footer {
         background-image: url(../images/products/tab/22.jpg);
     }
     .row:nth-child(12) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/tab/24.jpg);
+        background-image: url(../images/products/tab/14.jpg);
     }
     .row:nth-child(13) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/tab/25.jpg);
+        background-image: url(../images/products/tab/15.jpg);
     }
     .row:nth-child(13) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/tab/26.jpg);
+        background-image: url(../images/products/tab/16.jpg);
     }
-    .flip-card-back .col-sm-12 p {
-        font-size: medium !important;
+    .flip-card-front,
+    .flip-card-back {
+        margin: 0px;
     }
 }
 
@@ -435,16 +436,16 @@ footer {
         background-image: url(../images/products/mobile/17.jpg);
     }
     .row:nth-child(4) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/mobile/18.jpg);
-    }
-    .row:nth-child(5) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/mobile/19.jpg);
     }
+    .row:nth-child(5) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
+        background-image: url(../images/products/mobile/18.jpg);
+    }
     .row:nth-child(5) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/mobile/20.jpg);
+        background-image: url(../images/products/mobile/21.jpg);
     }
     .row:nth-child(6) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/mobile/21.jpg);
+        background-image: url(../images/products/mobile/20.jpg);
     }
     .row:nth-child(6) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/mobile/4.jpg);
@@ -468,13 +469,13 @@ footer {
         background-image: url(../images/products/mobile/8.jpg);
     }
     .row:nth-child(10) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/mobile/14.jpg);
+        background-image: url(../images/products/mobile/24.jpg);
     }
     .row:nth-child(10) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/mobile/15.jpg);
+        background-image: url(../images/products/mobile/26.jpg);
     }
     .row:nth-child(11) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/mobile/16.jpg);
+        background-image: url(../images/products/mobile/25.jpg);
     }
     .row:nth-child(11) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
         background-image: url(../images/products/mobile/23.jpg);
@@ -483,13 +484,13 @@ footer {
         background-image: url(../images/products/mobile/22.jpg);
     }
     .row:nth-child(12) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/mobile/24.jpg);
+        background-image: url(../images/products/mobile/14.jpg);
     }
     .row:nth-child(13) .col-sm-6:nth-child(1) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/mobile/25.jpg);
+        background-image: url(../images/products/mobile/15.jpg);
     }
     .row:nth-child(13) .col-sm-6:nth-child(2) .flip-card .flip-card-inner .flip-card-front {
-        background-image: url(../images/products/mobile/26.jpg);
+        background-image: url(../images/products/mobile/16.jpg);
     }
     .flip-card-front,
     .flip-card-back {
