@@ -943,7 +943,7 @@ footer {
 
 .social-media-footer .btn {
     background-color: transparent;
-    margin: auto 5px;
+    margin: auto;
     width: fit-content;
     width: -webkit-fit-content;
     width: -moz-fit-content;
@@ -965,7 +965,7 @@ footer {
 .fa-whatsapp:before,
 .fa-facebook:before {
     color: white;
-    font-size: medium;
+    font-size: x-large;
     margin-top: auto;
     margin-bottom: auto;
 }
