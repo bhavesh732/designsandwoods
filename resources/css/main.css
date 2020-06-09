@@ -177,6 +177,7 @@ nav ul li a button:hover {
 
 .social-media {
     display: flex;
+    margin-right: auto;
 }
 
 .btn-instagram {
@@ -279,6 +280,9 @@ nav ul li:nth-child(6) {
     }
     #header {
         padding: 10px;
+    }
+    .social-media {
+        margin-right: 0;
     }
 }
 
