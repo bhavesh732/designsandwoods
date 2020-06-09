@@ -176,7 +176,6 @@ nav ul li a button:hover {
 }
 
 .social-media {
-    margin-right: auto;
     display: flex;
 }
 
@@ -944,7 +943,7 @@ footer {
 
 .social-media-footer .btn {
     background-color: transparent;
-    margin: auto;
+    margin: auto 5px;
     width: fit-content;
     width: -webkit-fit-content;
     width: -moz-fit-content;
@@ -966,7 +965,7 @@ footer {
 .fa-whatsapp:before,
 .fa-facebook:before {
     color: white;
-    font-size: x-large;
+    font-size: medium;
     margin-top: auto;
     margin-bottom: auto;
 }
