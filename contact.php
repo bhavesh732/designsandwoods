@@ -96,13 +96,13 @@
 
     <h2 id="heading2">GET IN TOUCH</h1>
 
-        <form class="container">
-            <input type="text" class="name" name="fname" placeholder="First Name">
-            <input type="text" class="name" name="lname" placeholder="Last Name">
-            <input type="email" name="email" placeholder="E-Mail">
-            <input type="phone" name="phone" placeholder="Phone Number">
-            <input type="text" name="phone" placeholder="Subject">
-            <textarea placeholder="Message"></textarea>
+        <form class="container" method="POST" action="contactform.php">
+            <input type="text" class="name" name="fname" placeholder="First Name" required><?php $fnameErr ?>
+            <input type="text" class="name" name="lname" placeholder="Last Name" required>
+            <input type="email" name="email" placeholder="E-Mail" required>
+            <input type="text" name="phone" placeholder="Phone Number (without +91)" required>
+            <input type="text" name="subject" placeholder="Subject">
+            <textarea placeholder="Message" name="message" required></textarea>
 
             <input type="submit" value="SUBMIT" style="background-color: black; color: white;">
         </form>
@@ -135,6 +135,17 @@
                 Copyright &copy; 2020 Designs and Woods. All rights reserved.
             </div>
         </footer>
+
+        <!-- <script>
+                var googlebutton = document.getElementById('googlebutton');
+                var finalmessage = "";
+                if (finalmessage != null) {
+                    document.alert(finalmessage);
+                    google.click();
+                } else {
+                    document.alert('error');
+                }
+            </script> -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <script src="resources/bootstrap/jquery.slim.min.js"></script>
