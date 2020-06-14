@@ -108,7 +108,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 ?>
 
-<form style="display: none;" class="container" method="POST" action="javascript: postToGoogle()">
+<form  class="container" method="POST" action="javascript: postToGoogle()">
     <input type="text" class="name" name="fname" value="<?php echo  $fname ?>" placeholder="First Name" required><?php $fnameErr ?>
     <input type="text" class="name" name="lname" value="<?php echo $lname ?>" placeholder="Last Name" required>
     <input type="email" name="email" value="<?php echo $email ?>" placeholder="E-Mail" required>
@@ -119,7 +119,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <input type="submit" id="submitbutton" value="SUBMIT" style="background-color: black; color: white;">
 </form>
 
-<a style="display: none;" href="contact.php"><button id="contactbutton">contact us</button></a>
+<a href="contact.php"><button id="contactbutton">contact us</button></a>
 
 <!-- //echo $validator;
 /*echo nl2br("Name : " . $fname . " " . $lname . $fnameErr . "\n" .

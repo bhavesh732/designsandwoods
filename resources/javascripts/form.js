@@ -22,18 +22,18 @@
          statusCode: {
              0: function() {
                  //Success message
-                 //alert("Success!");
+                 alert("Your Response has been recorded one of our Executives will Surely Contact You Soon.");
              },
              200: function() {
                  //Success Message
-                 //alert("Success!");
+                 alert("Your Response has been recorded one of our Executives will Surely Contact You Soon.");
              }
          }
      });
  }
 
- window.addEventListener("load", () => {
-     var googlebutton = document.getElementById('submitbutton');
-     googlebutton.click();
-     setTimeout(function() { contactbutton.click() }, 1000);
- });
+ //  window.addEventListener("load", () => {
+ //      var googlebutton = document.getElementById('submitbutton');
+ //      googlebutton.click();
+ //      //setTimeout(function() { contactbutton.click() }, 1000);
+ //  });
