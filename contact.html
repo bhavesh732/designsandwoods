@@ -54,7 +54,7 @@
                                     Us</button></a></li>
                         <li><a href="products.html" onclick="navhide()"><button class="butt">Products</button></a></li>
                         <li><a href="gallery.html" onclick="navhide()"><button class="butt">Gallery</button></a></li>
-                        <li><a href="contact.php" onclick="navhide()"><button class="butt nav-a">Contact Us</button></a></li>
+                        <li><a href="contact.html" onclick="navhide()"><button class="butt nav-a">Contact Us</button></a></li>
                         <!-- <li>
                             <a class="btn btn-social-icon btn-instagram">
                                 <span class="fa fa-instagram"></span>
@@ -89,14 +89,16 @@
                         <h6>
                 </div>
             </div>
-            <div class="col-sm-6 map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.82312608391!2d78.44296361482645!3d17.420273888058965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb972deaea368f%3A0xfc76e1ce7a5d5013!2sDesigns%20%26%20Woods!5e0!3m2!1sen!2sin!4v1590929322953!5m2!1sen!2sin" frameborder="0" style="border: 5px solid #102452;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+            <div class="col-sm-6 map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.82312608391!2d78.44296361482645!3d17.420273888058965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb972deaea368f%3A0xfc76e1ce7a5d5013!2sDesigns%20%26%20Woods!5e0!3m2!1sen!2sin!4v1590929322953!5m2!1sen!2sin"
+                    frameborder="0" style="border: 5px solid #102452;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
         </div>
     </div>
 
     <h2 id="heading2">GET IN TOUCH</h1>
 
         <form class="container" method="POST" action="javascript: postToGoogle()">
-            <input type="text" class="name" name="fname" placeholder="First Name" required><?php $fnameErr ?>
+            <input type="text" class="name" name="fname" placeholder="First Name" required>
+            <?php $fnameErr ?>
             <input type="text" class="name" name="lname" placeholder="Last Name" required>
             <input type="email" name="email" placeholder="E-Mail" required>
             <input type="text" name="phone" placeholder="Phone Number (without +91)" required>
