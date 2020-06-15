@@ -1,6 +1,11 @@
 @font-face {
     font-family: "Raleway";
-    src: url(../fonts/Raleway-Regular.ttf);
+    src: url('../fonts/Raleway-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'FontleroyBrown';
+    src: url('../fonts/FontleroyBrownNF.ttf');
 }
 
 @font-face {
@@ -42,9 +47,31 @@ section {
     text-align: center;
 }
 
-section img {
+section div {
     height: 25vh;
     margin: 2.5vh;
+}
+
+section div a {
+    color: #000;
+    text-decoration: none;
+}
+
+section div a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+section div a img {
+    height: 20vh;
+}
+
+section div a h1 {
+    font-family: "FontleroyBrown";
+    font-weight: 500;
+    font-size: 8vh;
+    margin-top: -5px;
+    letter-spacing: 0px;
 }
 
 
@@ -259,9 +286,8 @@ nav ul li:nth-child(6) {
         /* display: none; */
         height: 25vh;
     }
-    section img {
-        height: 20vh;
-        margin: 2.5vh;
+    section div a img {
+        height: 15vh;
     }
     .navbar.navbar-expand-md.setwidth {
         padding: 0px;
