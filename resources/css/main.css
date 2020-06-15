@@ -393,6 +393,11 @@ nav ul li:nth-child(6) {
     color: lightgreen;
 }
 
+.carousel-item .col-sm-3 div,
+.carousel-item .col-sm-6 div {
+    transform: translateX(1500px);
+}
+
 .carousel-item .col-sm-3,
 .carousel-item .col-sm-6 {
     display: flex;
@@ -473,6 +478,13 @@ nav ul li:nth-child(6) {
     font-size: large;
 }
 
+.carouselanimation.active .container .col-sm-3 div,
+.carouselanimation.active .container .col-sm-6 div {
+    visibility: visible;
+    transform: translateX(0px);
+    transition: 1s;
+}
+
 @media screen and (max-width:800px) {
     #myCarousel,
     .carousel-item,
@@ -488,6 +500,10 @@ nav ul li:nth-child(6) {
 }
 
 @media screen and (max-width:766px) {
+    .carousel-item .col-sm-3 div,
+    .carousel-item .col-sm-6 div {
+        transform: translateX(1000px);
+    }
     .logoandtagline {
         margin: 5vh 0px;
         text-align: center;

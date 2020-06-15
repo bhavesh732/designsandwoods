@@ -76,20 +76,3 @@ $(document).click(function(e) {
         $('.collapse').collapse('hide');
     }
 });
-
-// if (navbutton.className == "navbar-toggler navdisplay navhide") {
-//     document.addEventListener("touchend", () => {
-//         navhide();
-//         var active = document.getElementsByClassName('navdisplay');
-//         active[0].className = active[0].className.replace(" nav-a", "");
-//         active[0].className += " nav-a";
-//     });
-//     // document.addEventListener("scroll", () => {
-//     //     navbutton.click();
-//     // });
-// }
-
-
-$('.carousel').carousel({
-    interval: false,
-});
