@@ -396,6 +396,8 @@ nav ul li:nth-child(6) {
 .carousel-item .col-sm-3 div,
 .carousel-item .col-sm-6 div {
     transform: translateX(1500px);
+    -moz-transform: translateX(1500px);
+    -webkit-transform: translateX(1500px);
 }
 
 .carousel-item .col-sm-3,
@@ -407,14 +409,14 @@ nav ul li:nth-child(6) {
 
 .col-sm-6 div p {
     width: 90%;
-    text-align: left;
+    text-align: center;
 }
 
 .carousel-item .col-sm-3 div,
 .carousel-item .col-sm-6 div {
     height: fit-content;
     margin: auto;
-    text-align: left;
+    text-align: center;
 }
 
 .carousel-control-next span,
@@ -482,7 +484,34 @@ nav ul li:nth-child(6) {
 .carouselanimation.active .container .col-sm-6 div {
     visibility: visible;
     transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
     transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+}
+
+@media screen and (max-width:870px) {
+    #myCarousel,
+    .carousel-item,
+    .carousel-inner {
+        height: 100vh;
+        width: 100%;
+    }
+    .carousel-item {
+        height: 100%;
+        width: 100%;
+    }
+    .carousel-item .container {
+        height: 100vh;
+        width: 100%;
+    }
+    .carousel-item div h1 {
+        font-size: large !important;
+    }
+    .carousel-item div p {
+        font-size: small;
+    }
 }
 
 @media screen and (max-width:800px) {
@@ -503,6 +532,8 @@ nav ul li:nth-child(6) {
     .carousel-item .col-sm-3 div,
     .carousel-item .col-sm-6 div {
         transform: translateX(1000px);
+        -moz-transform: translateX(1000px);
+        -webkit-transform: translateX(1000px);
     }
     .logoandtagline {
         margin: 5vh 0px;
@@ -535,9 +566,11 @@ nav ul li:nth-child(6) {
     }
     .carousel-item div h1 {
         font-size: x-large!important;
+        text-align: center;
     }
     .carousel-item div p {
         font-size: small;
+        text-align: center;
     }
     .carousel-item .container {
         background-size: contain;
