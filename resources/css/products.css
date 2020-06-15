@@ -4,6 +4,10 @@
     margin: 2.5vh;
 }
 
+.intro {
+    font-weight: 600;
+}
+
 #products {
     height: fit-content;
     position: static;

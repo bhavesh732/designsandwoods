@@ -22,11 +22,11 @@
          statusCode: {
              0: function() {
                  //Success message
-                 alert("Your Response has been recorded one of our Executives will Surely Contact You Soon.");
+                 alert("THANK YOU! YOUR RESPONSE IS RECORDED SUCESSFULLY.");
              },
              200: function() {
                  //Success Message
-                 alert("Your Response has been recorded one of our Executives will Surely Contact You Soon.");
+                 alert("THANK YOU! YOUR RESPONSE IS RECORDED SUCESSFULLY.");
              }
          }
      });
