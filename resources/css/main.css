@@ -491,6 +491,36 @@ nav ul li:nth-child(6) {
     -moz-transition: 1s;
 }
 
+.collapse.show,
+.collapse.in {
+    display: block;
+}
+
+
+/* 
+@media screen and (max-width:1024px) {
+    #myCarousel,
+    .carousel-item,
+    .carousel-inner {
+        height: 70vh;
+        width: 100%;
+    }
+    .carousel-item {
+        height: 100%;
+        width: 100%;
+    }
+    .carousel-item .container {
+        height: 70vh;
+        width: 100%;
+    }
+    .carousel-item div h1 {
+        font-size: x-large !important;
+    }
+    .carousel-item div p {
+        font-size: medium;
+    }
+} */
+
 @media screen and (max-width:870px) {
     #myCarousel,
     .carousel-item,
@@ -874,9 +904,10 @@ i:before {
     margin-bottom: 1vw;
 }
 
-.col-sm-6 p {
+.col-sm-6 .inspiration p {
     font-family: "Poppins";
     text-align: justify;
+    width: 100%;
 }
 
 p span {
