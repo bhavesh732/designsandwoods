@@ -335,6 +335,10 @@ nav ul li:nth-child(6) {
     font-family: "Poppins";
 }
 
+.carousel-item:not(.first) .container .col-sm-3 div {
+    margin-left: 30px;
+}
+
 .carousel-item:nth-child(1) .container {
     background-image: url(../images/slideshow/1.jpg);
 }
@@ -545,6 +549,9 @@ nav ul li:nth-child(6) {
 }
 
 @media screen and (max-width:800px) {
+    .carousel-item:not(.first) .container .col-sm-3 div {
+        margin-left: 0px;
+    }
     #myCarousel,
     .carousel-item,
     .carousel-inner {
@@ -933,8 +940,9 @@ p span {
 
 .flip-card {
     background-color: transparent;
-    margin-top: 5vh;
+    /* margin-top: 5vh; */
     perspective: 1000px;
+    margin: 2vh;
 }
 
 .flip-card:hover .flip-card-inner {
@@ -989,6 +997,10 @@ p span {
 
 .flip-card-front button {
     display: none;
+}
+
+.flip-card div p {
+    text-align: justify;
 }
 
 .row:nth-child(odd) .col-sm-6:nth-child(1) .flip-card-front button {
@@ -1054,6 +1066,7 @@ div h1 {
     }
     .flip-card {
         height: 100%;
+        margin: 0vh;
     }
     .flip-card-front,
     .flip-card-back {
