@@ -332,6 +332,7 @@ nav ul li:nth-child(6) {
     height: 96vh;
     margin-top: 2vh;
     margin-bottom: 2vh;
+    font-family: "Poppins";
 }
 
 .carousel-item:nth-child(1) .container {
@@ -376,6 +377,39 @@ nav ul li:nth-child(6) {
 
 .carousel-item:nth-child(11) .container {
     background-image: url(../images/slideshow/11.jpg);
+}
+
+.carousel-item h1 {
+    font-size: xxx-large!important;
+    font-weight: 900;
+    margin: 5px 0px;
+    color: #fff;
+    font-family: "Poppins"!important;
+}
+
+.carousel-item p {
+    font-weight: 900;
+    font-size: x-large;
+    color: lightgreen;
+}
+
+.carousel-item .col-sm-3,
+.carousel-item .col-sm-6 {
+    display: flex;
+    height: 100%;
+    padding: 0px;
+}
+
+.col-sm-6 div p {
+    width: 90%;
+    text-align: left;
+}
+
+.carousel-item .col-sm-3 div,
+.carousel-item .col-sm-6 div {
+    height: fit-content;
+    margin: auto;
+    text-align: left;
 }
 
 .carousel-control-next span,
@@ -439,6 +473,20 @@ nav ul li:nth-child(6) {
     font-size: large;
 }
 
+@media screen and (max-width:800px) {
+    #myCarousel,
+    .carousel-item,
+    .carousel-inner {
+        height: 70vh;
+    }
+    .carousel-item {
+        height: 100%;
+    }
+    .carousel-item .container {
+        height: 70vh;
+    }
+}
+
 @media screen and (max-width:766px) {
     .logoandtagline {
         margin: 5vh 0px;
@@ -454,9 +502,26 @@ nav ul li:nth-child(6) {
     .home h3 {
         font-size: 15px;
     }
+    #myCarousel {
+        height: 70vh;
+    }
+    .carousel-item,
+    .carousel-inner {
+        height: 70vh;
+    }
     .carousel-item {
         height: 70vh;
         /* background-image: url(../images/slideshow/backgroundmobile.png); */
+    }
+    .carousel-item .col-sm-3,
+    .carousel-item .col-sm-6 {
+        height: 29%;
+    }
+    .carousel-item div h1 {
+        font-size: x-large!important;
+    }
+    .carousel-item div p {
+        font-size: small;
     }
     .carousel-item .container {
         background-size: contain;

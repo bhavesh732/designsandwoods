@@ -88,3 +88,8 @@ $(document).click(function(e) {
 //     //     navbutton.click();
 //     // });
 // }
+
+
+$('.carousel').carousel({
+    interval: false,
+});
