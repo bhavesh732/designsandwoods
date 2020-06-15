@@ -2,8 +2,14 @@ form {
     text-align: center;
 }
 
+form span {
+    color: red;
+    margin: 5px;
+    font-size: xx-large;
+}
+
 input {
-    width: 100%;
+    width: 90%;
     border: none;
     border: 1px solid rgb( 220, 220, 220);
     border-bottom: 2px solid #102452;
@@ -13,12 +19,7 @@ input {
 }
 
 .name {
-    width: 49%;
-    float: left;
-}
-
-.name:nth-child(2) {
-    float: right;
+    width: 45%;
 }
 
 input:focus {
@@ -29,7 +30,7 @@ input:focus {
 textarea {
     border: 1px solid rgb(220, 220, 220);
     border-bottom: 2px solid #102452;
-    width: 100%;
+    width: 90%;
     height: 30vh;
     padding: 2vh;
     margin: 2vh 0vh;
@@ -69,24 +70,25 @@ iframe {
     margin: 15px 0px;
 }
 
+.error {
+    visibility: hidden;
+}
+
 @media screen and (max-width:766px) {
     input {
-        width: 90%;
+        width: 85%;
         border: none;
         border-bottom: 2px solid #102452;
-        margin: 2.5%;
+        margin: 0;
         padding: 2.5%;
         font-weight: 500;
     }
-    .name {
-        width: 45%;
-        margin-right: 0px;
-        margin-left: 5%;
+    .error {
+        visibility: visible;
     }
-    .name:nth-child(2) {
-        margin-left: 0px;
-        margin-right: 5%;
-        border-left: 1px solid lightgrey;
+    .name {
+        width: 85%;
+        margin-left: 0%;
     }
     iframe {
         width: 90vw;
