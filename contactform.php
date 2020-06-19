@@ -120,7 +120,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </form>
 
 <a href="contact.php"><button id="contactbutton">contact us</button></a>
-
+Endpoint : http://designsandwoods.in.s3-website.ap-south-1.amazonaws.com
 <!-- //echo $validator;
 /*echo nl2br("Name : " . $fname . " " . $lname . $fnameErr . "\n" .
     "Contact number : " . $conno . $error . "\n" .
